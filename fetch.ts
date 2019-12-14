@@ -97,14 +97,15 @@ export async function get__user__v2__auth0({ AUTH0_DOMAIN, user_id }) {
 	})
 }
 type Params__get__users_by_email__v2__auth0 = {
-	email: string
+	email: string,
+	AUTH0_DOMAIN?: string,
 }
 export async function get__users_by_email__v2__auth0(params: Params__get__users_by_email__v2__auth0) {
 	log(`${logPrefix}|get__users_by_email__v2__auth0`)
-	const { email } = params
+	const { email, AUTH0_DOMAIN = get(__AUTH0_DOMAIN) } = params
 	const token__auth0 = await _token__auth0__management()
 	const authorization = _authorization__header__access_token__verify(token__auth0)
-	const url = `https://${get(__AUTH0_DOMAIN)}/api/v2/users-by-email?email=${encodeURIComponent(email)}`
+	const url = `https://${AUTH0_DOMAIN}/api/v2/users-by-email?email=${encodeURIComponent(email)}`
 	return fetch(url, {
 		method: 'GET',
 		headers:

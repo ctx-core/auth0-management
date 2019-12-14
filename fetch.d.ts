@@ -26,6 +26,7 @@ export declare function get__user__v2__auth0({ AUTH0_DOMAIN, user_id }: {
 }): Promise<any>;
 declare type Params__get__users_by_email__v2__auth0 = {
     email: string;
+    AUTH0_DOMAIN?: string;
 };
 export declare function get__users_by_email__v2__auth0(params: Params__get__users_by_email__v2__auth0): Promise<any>;
 export declare function _audience(): string;
