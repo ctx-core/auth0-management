@@ -33,7 +33,7 @@
 		"@ctx-core/fetch": "^6.1.115",
 		"@ctx-core/logger": "^3.1.14",
 		"@ctx-core/object": "^8.0.8",
-		"auth0": "^2.24.0",
+		"auth0": "^2.25.0",
 		"esm": "^3.2.25",
 		"querystringify": "^2.1.1"
 	},
