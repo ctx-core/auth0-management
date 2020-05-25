@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-import { _management__auth0 } from '@ctx-core/auth0-management'
-import { get__client_grants__v2__auth0, _audience } from '@ctx-core/auth0-management/fetch'
+require = require('esm')(module)
+const { _management__auth0 } = require('@ctx-core/auth0-management')
+const { get__client_grants__v2__auth0, _audience } = require('@ctx-core/auth0-management/fetch')
 //main()
 main2()
 async function main() {
