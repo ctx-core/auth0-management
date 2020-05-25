@@ -2,6 +2,7 @@
 	"name": "@ctx-core/auth0-management",
 	"version": "1.3.72",
 	"description": "ctx-core auth0 management api",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
