@@ -35,7 +35,6 @@
 		"@ctx-core/logger": "^3.1.14",
 		"@ctx-core/object": "^8.0.10",
 		"auth0": "^2.25.1",
-		"esm": "^3.2.25",
 		"querystringify": "^2.1.1"
 	},
 	"devDependencies": {
