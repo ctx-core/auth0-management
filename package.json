@@ -38,7 +38,7 @@
 		"querystringify": "^2.1.1"
 	},
 	"devDependencies": {
-		"svelte": "^3.23.1",
+		"svelte": "^3.23.2",
 		"typescript": "^3.9.5"
 	},
 	"gitHead": "ca3b5e56abc2138d99f0f64d46ea4cd6b1ba9ae0"
