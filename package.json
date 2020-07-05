@@ -33,13 +33,13 @@
 		"@ctx-core/fetch": "^6.1.129",
 		"@ctx-core/logger": "^3.1.18",
 		"@ctx-core/object": "^8.0.15",
-		"auth0": "^2.26.0",
+		"auth0": "^2.27.0",
 		"esm": "^3.2.25",
 		"querystringify": "^2.1.1"
 	},
 	"devDependencies": {
 		"svelte": "^3.23.2",
-		"typescript": "^3.9.5"
+		"typescript": "^3.9.6"
 	},
 	"gitHead": "ca3b5e56abc2138d99f0f64d46ea4cd6b1ba9ae0"
 }
