@@ -2,9 +2,9 @@
 	"name": "@ctx-core/auth0-management",
 	"version": "1.3.90",
 	"description": "ctx-core auth0 management api",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
