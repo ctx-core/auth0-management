@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "1.3.107",
+	"version": "1.3.108",
 	"description": "ctx-core auth0 management api",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -29,8 +29,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^19.0.71",
-		"@ctx-core/fetch": "^6.1.155",
+		"@ctx-core/auth0": "^19.0.72",
+		"@ctx-core/fetch": "^6.1.156",
 		"@ctx-core/logger": "^3.1.21",
 		"@ctx-core/object": "^8.1.5",
 		"auth0": "^2.27.0",
