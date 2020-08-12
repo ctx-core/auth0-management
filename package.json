@@ -31,7 +31,6 @@
 	"dependencies": {
 		"@ctx-core/auth0": "^19.0.98",
 		"@ctx-core/fetch": "^6.1.182",
-		"@ctx-core/logger": "^3.1.23",
 		"@ctx-core/object": "^9.0.13",
 		"auth0": "^2.27.1",
 		"esm": "^3.2.25",

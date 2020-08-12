@@ -6,8 +6,6 @@ import {
 	_authorization__header__access_token__verify,
 	post__token__oauth__auth0,
 } from '@ctx-core/auth0/fetch'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/auth0-management/fetch.js'
 type Params__get__client_grants__v2__auth0 = {
 	query?:string
 	json?:any
@@ -15,7 +13,6 @@ type Params__get__client_grants__v2__auth0 = {
 export async function get__client_grants__v2__auth0(
 	params:Params__get__client_grants__v2__auth0
 ) {
-	log(`${logPrefix}|get__client_grants__v2__auth0`)
 	const {
 		query,
 		json,
@@ -38,7 +35,6 @@ type Params__patch__client__v2__auth0 = {
 	json?: any
 }
 export async function patch__client__v2__auth0(params: Params__patch__client__v2__auth0) {
-	log(`${logPrefix}|patch__client__v2__auth0`)
 	const {
 		client_id = process.env.AUTH0_CLIENT_ID,
 		body,
@@ -68,7 +64,6 @@ export async function patch__client__v2__auth0(params: Params__patch__client__v2
  * @see {@link https://auth0.com/docs/protocols/oauth2}
  */
 export async function patch__user__v2__auth0(user_id, form) {
-	log(`${logPrefix}|patch__user__v2__auth0`)
 	const token__auth0 = await _token__auth0__management()
 	const authorization = _authorization__header__access_token__verify(token__auth0)
 	const url = `https://${get(__AUTH0_DOMAIN)}/api/v2/users/${user_id}`
@@ -83,7 +78,6 @@ export async function patch__user__v2__auth0(user_id, form) {
 	})
 }
 export async function get__user__v2__auth0({ AUTH0_DOMAIN, user_id }) {
-	log(`${logPrefix}|get__user__v2__auth0`)
 	const token__auth0 = await _token__auth0__management()
 	const authorization = _authorization__header__access_token__verify(token__auth0)
 	const url = `https://${AUTH0_DOMAIN}/api/v2/users/${user_id}`
@@ -101,7 +95,6 @@ type Params__get__users_by_email__v2__auth0 = {
 	AUTH0_DOMAIN?: string,
 }
 export async function get__users_by_email__v2__auth0(params: Params__get__users_by_email__v2__auth0) {
-	log(`${logPrefix}|get__users_by_email__v2__auth0`)
 	const { email, AUTH0_DOMAIN = get(__AUTH0_DOMAIN) } = params
 	const token__auth0 = await _token__auth0__management()
 	const authorization = _authorization__header__access_token__verify(token__auth0)
