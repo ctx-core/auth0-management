@@ -34,7 +34,7 @@
 		"@ctx-core/object": "^9.0.13",
 		"auth0": "^2.27.1",
 		"esm": "^3.2.25",
-		"querystringify": "^2.1.1"
+		"querystringify": "^2.2.0"
 	},
 	"devDependencies": {
 		"svelte": "^3.24.1",
