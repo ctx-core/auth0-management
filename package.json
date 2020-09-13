@@ -2,6 +2,20 @@
 	"name": "@ctx-core/auth0-management",
 	"version": "1.3.156",
 	"description": "ctx-core auth0 management api",
+	"keywords": [
+		"ctx-core",
+		"auth0"
+	],
+	"homepage": "https://github.com/ctx-core/auth0-management#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/auth0-management/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/auth0-management.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,30 +23,13 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/auth0-management.git"
-	},
-	"keywords": [
-		"ctx-core",
-		"auth0"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/auth0-management/issues"
-	},
-	"homepage": "https://github.com/ctx-core/auth0-management#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^19.0.118",
-		"@ctx-core/fetch": "^6.1.202",
-		"@ctx-core/object": "^10.0.4",
+		"@ctx-core/auth0": "workspace:*",
+		"@ctx-core/fetch": "workspace:*",
+		"@ctx-core/object": "workspace:*",
 		"auth0": "^2.28.0",
 		"esm": "^3.2.25",
 		"querystringify": "^2.2.0"
@@ -40,6 +37,9 @@
 	"devDependencies": {
 		"svelte": "^3.25.0",
 		"typescript": "^4.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "cde435e92bfc9b9d96fde66a5ffa7abf7fe7eeb7"
 }
