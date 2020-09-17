@@ -6,7 +6,7 @@ export declare function get__client_grants__v2__auth0(params: Params__get__clien
 declare type Params__patch__client__v2__auth0 = {
     client_id?: string;
     body?: string;
-    json?: any;
+    json?: unknown;
 };
 export declare function patch__client__v2__auth0(params: Params__patch__client__v2__auth0): Promise<any>;
 /**

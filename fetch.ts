@@ -17,8 +17,8 @@ export async function get__client_grants__v2__auth0(
 		query,
 		json,
 	} = params
-	const token__auth0 = await _token__auth0__management()
-	const authorization = _authorization__header__access_token__verify(token__auth0)
+	const auth0_token = await _token__auth0__management()
+	const authorization = _authorization__header__access_token__verify(auth0_token)
 	const url = `https://${get(__AUTH0_DOMAIN)}/api/v2/client-grants?${query || stringify__qs(json)}`
 	return fetch(url, {
 		method: 'GET',
@@ -32,7 +32,7 @@ export async function get__client_grants__v2__auth0(
 type Params__patch__client__v2__auth0 = {
 	client_id?: string
 	body?: string
-	json?: any
+	json?: unknown
 }
 export async function patch__client__v2__auth0(params: Params__patch__client__v2__auth0) {
 	const {
@@ -40,8 +40,8 @@ export async function patch__client__v2__auth0(params: Params__patch__client__v2
 		body,
 		json,
 	} = params
-	const token__auth0 = await _token__auth0__management()
-	const authorization = _authorization__header__access_token__verify(token__auth0)
+	const auth0_token = await _token__auth0__management()
+	const authorization = _authorization__header__access_token__verify(auth0_token)
 	const url = `https://${get(__AUTH0_DOMAIN)}/api/v2/clients/${client_id}`
 	return fetch(url, {
 		method: 'PATCH',
@@ -64,8 +64,8 @@ export async function patch__client__v2__auth0(params: Params__patch__client__v2
  * @see {@link https://auth0.com/docs/protocols/oauth2}
  */
 export async function patch__user__v2__auth0(user_id, form) {
-	const token__auth0 = await _token__auth0__management()
-	const authorization = _authorization__header__access_token__verify(token__auth0)
+	const auth0_token = await _token__auth0__management()
+	const authorization = _authorization__header__access_token__verify(auth0_token)
 	const url = `https://${get(__AUTH0_DOMAIN)}/api/v2/users/${user_id}`
 	return fetch(url, {
 		method: 'PATCH',
@@ -78,8 +78,8 @@ export async function patch__user__v2__auth0(user_id, form) {
 	})
 }
 export async function get__user__v2__auth0({ AUTH0_DOMAIN, user_id }) {
-	const token__auth0 = await _token__auth0__management()
-	const authorization = _authorization__header__access_token__verify(token__auth0)
+	const auth0_token = await _token__auth0__management()
+	const authorization = _authorization__header__access_token__verify(auth0_token)
 	const url = `https://${AUTH0_DOMAIN}/api/v2/users/${user_id}`
 	return fetch(url, {
 		method: 'GET',
@@ -96,8 +96,8 @@ type Params__get__users_by_email__v2__auth0 = {
 }
 export async function get__users_by_email__v2__auth0(params: Params__get__users_by_email__v2__auth0) {
 	const { email, AUTH0_DOMAIN = get(__AUTH0_DOMAIN) } = params
-	const token__auth0 = await _token__auth0__management()
-	const authorization = _authorization__header__access_token__verify(token__auth0)
+	const auth0_token = await _token__auth0__management()
+	const authorization = _authorization__header__access_token__verify(auth0_token)
 	const url = `https://${AUTH0_DOMAIN}/api/v2/users-by-email?email=${encodeURIComponent(email)}`
 	return fetch(url, {
 		method: 'GET',
