@@ -1,5 +1,18 @@
 # @ctx-core/auth0-management
 
+## 2.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@21.0.0
+  - @ctx-core/fetch@7.0.0
+  - @ctx-core/object@12.0.0
+
 ## 1.3.158
 
 ### Patch Changes

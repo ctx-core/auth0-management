@@ -32,8 +32,8 @@ export declare function get__users_by_email__v2__auth0(params: Params__get__user
 export declare function _audience(): string;
 export declare function _body__client_credentials__management(): {
     grant_type: string;
-    client_id: string;
-    client_secret: string;
+    client_id: string | undefined;
+    client_secret: string | undefined;
     audience: string;
 };
 export {};
