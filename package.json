@@ -1,44 +1,44 @@
 {
-  "name": "@ctx-core/auth0-management",
-  "version": "2.0.19",
-  "description": "ctx-core auth0 management api",
-  "keywords": [
-    "ctx-core",
-    "auth0"
-  ],
-  "homepage": "https://github.com/ctx-core/auth0-management#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/auth0-management/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/auth0-management.git"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/auth0": "workspace:^21.0.19",
-    "@ctx-core/fetch": "workspace:^7.0.18",
-    "@ctx-core/object": "workspace:^12.0.4",
-    "auth0": "^2.28.0",
-    "esm": "^3.2.25",
-    "querystringify": "^2.2.0"
-  },
-  "devDependencies": {
-    "svelte": "3.26.0",
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@ctx-core/auth0-management",
+	"version": "2.0.20",
+	"description": "ctx-core auth0 management api",
+	"keywords": [
+		"ctx-core",
+		"auth0"
+	],
+	"homepage": "https://github.com/ctx-core/auth0-management#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/auth0-management/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/auth0-management.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/auth0": "workspace:^21.0.20",
+		"@ctx-core/fetch": "workspace:^7.0.19",
+		"@ctx-core/object": "workspace:^12.0.4",
+		"auth0": "^2.28.0",
+		"esm": "^3.2.25",
+		"querystringify": "^2.2.0"
+	},
+	"devDependencies": {
+		"svelte": "3.26.0",
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
