@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 2.0.19
+
+### Patch Changes
+
+- version bump to sync with npm
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@21.0.19
+
 ## 2.0.18
 
 ### Patch Changes
