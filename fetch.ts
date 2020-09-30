@@ -1,6 +1,6 @@
 import { stringify as stringify__qs } from 'querystringify'
 import { fetch } from '@ctx-core/fetch'
-import { get } from 'svelte/store'
+import { get } from '@ctx-core/store'
 import { __AUTH0_DOMAIN } from '@ctx-core/auth0/store'
 import {
 	_authorization__header__access_token__verify,
