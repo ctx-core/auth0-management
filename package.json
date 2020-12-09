@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "2.1.4",
+	"version": "2.1.5",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -31,7 +31,7 @@
 		"@ctx-core/fetch": "workspace:^7.0.80",
 		"@ctx-core/object": "workspace:^15.0.0",
 		"@ctx-core/store": "workspace:^23.1.4",
-		"auth0": "^2.30.0",
+		"auth0": "^2.31.0",
 		"esm": "^3.2.25",
 		"querystringify": "^2.2.0",
 		"svelte": "3.31.0"
