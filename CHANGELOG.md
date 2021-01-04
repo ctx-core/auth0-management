@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 2.2.0
+
+### Minor Changes
+
+- annotated api with types
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@21.3.0
+
 ## 2.1.37
 
 ### Patch Changes
