@@ -1,5 +1,12 @@
 # @ctx-core/auth0-management
 
+## 2.2.4
+
+### Patch Changes
+
+- @ctx-core/fetch@7.1.15
+- @ctx-core/auth0@21.3.4
+
 ## 2.2.3
 
 ### Patch Changes
