@@ -15,7 +15,7 @@ export const patch_auth0_v2_user_b:patch_auth0_v2_user_b_type = _b('patch_auth0_
 	 * @see {@link https://auth0.com/docs/api-auth/grant/authorization-code}
 	 * @see {@link https://auth0.com/docs/protocols/oauth2}
 	 */
-	async function patch_auth0_v2_user(user_id:string, data:Auth0UserProfile) {
+	async function patch_auth0_v2_user(user_id:string, data:patch_auth0_v2_user_data_type) {
 		const auth0_token = await _auth0_management_token()
 		const authorization = _verify_access_token_header_authorization(auth0_token)
 		const url = `https://${get(AUTH0_DOMAIN)}/api/v2/users/${user_id}`
@@ -30,6 +30,9 @@ export const patch_auth0_v2_user_b:patch_auth0_v2_user_b_type = _b('patch_auth0_
 		})
 	}
 })
+export interface patch_auth0_v2_user_data_type extends Partial<Auth0UserProfile> {
+	password?:string
+}
 export type patch_auth0_v2_user_type =
-	(user_id:string, data:Auth0UserProfile)=>Promise<Response>
+	(user_id:string, data:patch_auth0_v2_user_data_type)=>Promise<Response>
 export interface patch_auth0_v2_user_b_type extends B<patch_auth0_v2_user_type> {}
