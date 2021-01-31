@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 require = require('esm')(module)
-const { patch_auth0_v2_client } = require('@ctx-core/auth0-management/fetch')
-main()
+const { patch_auth0_v2_client } = require('@ctx-core/auth0-management')
+main().then()
 async function main() {
 	const response = await patch_auth0_v2_client({
 		json: {

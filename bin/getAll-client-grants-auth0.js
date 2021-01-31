@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 require = require('esm')(module)
-const { _auth0_management } = require('@ctx-core/auth0-management')
-const { get_auth0_v2_client_grants, _audience } = require('@ctx-core/auth0-management/fetch')
+const { _auth0_management, get_auth0_v2_client_grants, _audience } = require('@ctx-core/auth0-management')
 //main()
-main2()
+main2().then()
 async function main() {
-	const auth0__management = _auth0_management()
-	const a1__clientGrant = await auth0__management.clientGrants.getAll()
-	console.info(JSON.stringify(a1__clientGrant, null, 2))
+	const management_auth0 = _auth0_management()
+	const clientGrant_a1 = await management_auth0.clientGrants.getAll()
+	console.info(JSON.stringify(clientGrant_a1, null, 2))
 }
 async function main2() {
   const response = await get_auth0_v2_client_grants({
