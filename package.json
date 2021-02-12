@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "3.0.20",
+	"version": "3.0.21",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -27,8 +27,8 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^22.0.19",
-		"@ctx-core/fetch": "workspace:^8.0.18",
+		"@ctx-core/auth0": "workspace:^22.0.20",
+		"@ctx-core/fetch": "workspace:^8.0.19",
 		"@ctx-core/object": "workspace:^17.0.6",
 		"@ctx-core/store": "workspace:^24.0.14",
 		"auth0": "^2.33.0",
