@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 3.0.50
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.0.49
+  - @ctx-core/fetch@8.0.47
+  - @ctx-core/object@17.4.1
+  - @ctx-core/store@24.1.14
+
 ## 3.0.49
 
 ### Patch Changes
