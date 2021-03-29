@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 3.0.51
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.0.50
+  - @ctx-core/fetch@8.0.48
+  - @ctx-core/object@17.4.2
+  - @ctx-core/store@24.1.15
+
 ## 3.0.50
 
 ### Patch Changes
