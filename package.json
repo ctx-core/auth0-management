@@ -33,7 +33,7 @@
 		"@ctx-core/store": "workspace:^24.1.16",
 		"auth0": "^2.34.1",
 		"esm": "^3.2.25",
-		"svelte": "3.35.0"
+		"svelte": "3.37.0"
 	},
 	"devDependencies": {
 		"@ctx-core/uri": "workspace:^9.1.13",
