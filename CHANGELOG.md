@@ -1,5 +1,25 @@
 # @ctx-core/auth0-management
 
+## 3.1.5
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.1.4
+  - @ctx-core/fetch@8.1.4
+  - @ctx-core/store@24.8.4
+
+## 3.1.4
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@18.0.0
+  - @ctx-core/auth0@22.1.3
+  - @ctx-core/fetch@8.1.3
+  - @ctx-core/store@24.8.3
+
 ## 3.1.3
 
 ### Patch Changes
