@@ -4,7 +4,7 @@ import { _auth0_management_token_Ctx } from './_auth0_management_token_b';
 export interface patch_auth0_v2_user_Ctx extends _auth0_management_token_Ctx, AUTH0_DOMAIN_Ctx {
     patch_auth0_v2_user?: patch_auth0_v2_user_T;
 }
-export declare const patch_auth0_v2_user_b: import("@ctx-core/object").Be<patch_auth0_v2_user_Ctx, "patch_auth0_v2_user">;
+export declare const patch_auth0_v2_user_b: import("@ctx-core/object").Be<patch_auth0_v2_user_Ctx, "patch_auth0_v2_user", patch_auth0_v2_user_T>;
 export interface patch_auth0_v2_user_data_I extends Partial<Auth0UserProfile> {
     password?: string;
 }
