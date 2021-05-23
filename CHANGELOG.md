@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 3.2.0
+
+### Minor Changes
+
+- auth0_management_Ctx
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.2.0
+
 ## 3.1.9
 
 ### Patch Changes

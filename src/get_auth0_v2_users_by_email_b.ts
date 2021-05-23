@@ -2,13 +2,10 @@ import { _b } from '@ctx-core/object'
 import { fetch } from '@ctx-core/fetch'
 import { get } from '@ctx-core/store'
 import { _verify_access_token_header_authorization, AUTH0_DOMAIN_b } from '@ctx-core/auth0'
-import { _auth0_management_token_b, _auth0_management_token_Ctx } from './_auth0_management_token_b'
+import { _auth0_management_token_b } from './_auth0_management_token_b'
+import type { auth0_management_Ctx } from './auth0_management_Ctx'
 const key = 'get_auth0_v2_users_by_email'
-export interface get_auth0_v2_users_by_email_Ctx
-	extends _auth0_management_token_Ctx {
-	get_auth0_v2_users_by_email?:get_auth0_v2_users_by_email_T
-}
-export const get_auth0_v2_users_by_email_b = _b<get_auth0_v2_users_by_email_Ctx, typeof key>(key, ctx=>{
+export const get_auth0_v2_users_by_email_b = _b<auth0_management_Ctx, typeof key>(key, ctx=>{
 	const _auth0_management_token = _auth0_management_token_b(ctx)
 	return get_auth0_v2_users_by_email as get_auth0_v2_users_by_email_T
 	async function get_auth0_v2_users_by_email(params:get_auth0_v2_users_by_email_params_I) {
