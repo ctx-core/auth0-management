@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 3.3.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.3.1
+  - @ctx-core/fetch@8.2.1
+  - @ctx-core/object@18.1.1
+  - @ctx-core/store@24.9.1
+
 ## 3.3.0
 
 ### Minor Changes
