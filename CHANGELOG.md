@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 3.2.3
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.2.3
+  - @ctx-core/fetch@8.1.11
+  - @ctx-core/object@18.0.6
+  - @ctx-core/store@24.8.10
+
 ## 3.2.2
 
 ### Patch Changes
