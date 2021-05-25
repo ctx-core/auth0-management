@@ -1,5 +1,19 @@
 # @ctx-core/auth0-management
 
+## 3.4.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.4.0
+  - @ctx-core/fetch@8.3.0
+  - @ctx-core/object@18.2.0
+  - @ctx-core/store@24.10.0
+
 ## 3.3.1
 
 ### Patch Changes
