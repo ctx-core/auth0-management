@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 require = require('esm')(module)
-const { _auth0_management } = require('@ctx-core/auth0-management')
+const { auth0_management_fn } = require('@ctx-core/auth0-management')
 main().then()
 // auth0.js clientGrants getAll
 async function main() {
 	const rest_argv_a1 = process.argv.slice(2)
 	const [arg_manager, arg_cmd, ...arg_a1] = rest_argv_a1
-	const management_auth0 = _auth0_management()
+	const management_auth0 = auth0_management_fn()
 	const manager = management_auth0[arg_manager]
 	if (!manager) throw `Invalid manager ${arg_manager}`
 	const cmd = manager[arg_cmd]

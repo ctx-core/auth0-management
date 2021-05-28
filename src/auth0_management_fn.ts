@@ -1,5 +1,5 @@
 import { ManagementClient } from 'auth0'
-export function _auth0_management(params:auth0_management_params_I = {}) {
+export function auth0_management_fn(params:auth0_management_params_I = {}) {
 	const domain = params.domain || process.env.AUTH0_DOMAIN || ''
 	const clientId = params.clientId || process.env.AUTH0_MANAGEMENT_ID || ''
 	const clientSecret = params.clientSecret || process.env.AUTH0_MANAGEMENT_SECRET || ''
