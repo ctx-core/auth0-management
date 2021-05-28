@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 3.4.7
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@22.4.8
+
 ## 3.4.6
 
 ### Patch Changes
