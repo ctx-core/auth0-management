@@ -1,5 +1,21 @@
 # @ctx-core/auth0-management
 
+## 4.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@23.0.0
+  - @ctx-core/fetch@9.0.0
+  - @ctx-core/object@19.0.0
+  - @ctx-core/store@25.0.0
+
 ## 3.4.8
 
 ### Patch Changes
