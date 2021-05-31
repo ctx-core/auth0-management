@@ -1,10 +1,10 @@
-import { _b, B } from '@ctx-core/object'
+import { be_, B } from '@ctx-core/object'
 import { fetch } from '@ctx-core/fetch'
 import { verify_access_token_header_authorization_ } from '@ctx-core/auth0'
 import { auth0_management_token__b } from './auth0_management_token__b'
 import type { auth0_management_Ctx } from './auth0_management_Ctx'
 const key = 'get_auth0_v2_user'
-export const get_auth0_v2_user_b:B<auth0_management_Ctx, typeof key> = _b<auth0_management_Ctx, typeof key>(key, ctx=>{
+export const get_auth0_v2_user_b:B<auth0_management_Ctx, typeof key> = be_<auth0_management_Ctx, typeof key>(key, ctx=>{
 	const auth0_management_token_ = auth0_management_token__b(ctx)
 	return get_auth0_v2_user as get_auth0_v2_user_T
 	async function get_auth0_v2_user({ AUTH0_DOMAIN, user_id }:get_auth0_v2_user_params_T):Promise<Response> {
