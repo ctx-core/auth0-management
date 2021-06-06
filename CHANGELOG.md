@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 4.0.13
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@23.0.16
+  - @ctx-core/fetch@9.0.5
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+
 ## 4.0.12
 
 ### Patch Changes
