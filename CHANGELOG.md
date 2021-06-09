@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 4.0.18
+
+### Patch Changes
+
+- update dependencies
+
 ## 4.0.17
 
 ### Patch Changes
