@@ -31,7 +31,7 @@
 		"@ctx-core/auth0": "workspace:^23.0.18",
 		"@ctx-core/fetch": "workspace:^9.0.8",
 		"@ctx-core/object": "workspace:^19.1.4",
-		"@ctx-core/store": "workspace:^25.1.16",
+		"@ctx-core/store": "workspace:^25.1.17",
 		"auth0": "^2.35.0",
 		"esm": "^3.2.25",
 		"svelte": "3.38.2"
