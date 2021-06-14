@@ -1,5 +1,19 @@
 # @ctx-core/auth0-management
 
+## 5.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@24.0.0
+  - @ctx-core/fetch@10.0.0
+  - @ctx-core/object@20.0.0
+  - @ctx-core/store@26.0.0
+
 ## 4.0.22
 
 ### Patch Changes
