@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 5.0.10
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@24.0.12
+  - @ctx-core/fetch@10.0.8
+  - @ctx-core/object@20.0.4
+  - @ctx-core/store@26.0.5
+
 ## 5.0.9
 
 ### Patch Changes
