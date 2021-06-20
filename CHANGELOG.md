@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 5.0.13
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@24.0.15
+  - @ctx-core/fetch@10.0.11
+  - @ctx-core/object@20.0.7
+  - @ctx-core/store@26.0.8
+
 ## 5.0.12
 
 ### Patch Changes
