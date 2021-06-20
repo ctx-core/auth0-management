@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 5.0.11
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@24.0.13
+  - @ctx-core/fetch@10.0.9
+  - @ctx-core/object@20.0.5
+  - @ctx-core/store@26.0.6
+
 ## 5.0.10
 
 ### Patch Changes
