@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 5.0.14
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@24.0.16
+  - @ctx-core/fetch@10.0.12
+  - @ctx-core/object@20.0.8
+  - @ctx-core/store@26.0.9
+
 ## 5.0.13
 
 ### Patch Changes
