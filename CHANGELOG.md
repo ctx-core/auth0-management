@@ -1,5 +1,14 @@
 # @ctx-core/auth0-management
 
+## 5.0.15
+
+### Patch Changes
+
+- svelte: 3.38.2 -> 3.38.3
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@24.0.17
+  - @ctx-core/store@26.0.10
+
 ## 5.0.14
 
 ### Patch Changes
