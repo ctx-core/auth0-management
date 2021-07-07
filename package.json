@@ -29,7 +29,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/auth0": "workspace:^24.0.41",
-		"@ctx-core/fetch": "workspace:^10.0.32",
+		"@ctx-core/fetch": "workspace:^10.0.33",
 		"@ctx-core/object": "workspace:^20.3.0",
 		"@ctx-core/store": "workspace:^26.0.22",
 		"auth0": "^2.35.1",
