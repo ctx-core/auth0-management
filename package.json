@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "5.0.41",
+	"version": "5.0.42",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
