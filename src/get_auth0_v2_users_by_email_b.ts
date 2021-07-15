@@ -1,7 +1,7 @@
 import { be_, B } from '@ctx-core/object'
 import { fetch } from '@ctx-core/fetch'
 import { verify_access_token_header_authorization_, AUTH0_DOMAIN$_b } from '@ctx-core/auth0'
-import { auth0_management_token__b } from './auth0_management_token__b'
+import { auth0_management_token__b } from './auth0_management_token__b.js'
 import type { auth0_management_Ctx } from './auth0_management_Ctx'
 const key = 'get_auth0_v2_users_by_email'
 export const get_auth0_v2_users_by_email_b:B<auth0_management_Ctx, typeof key> = be_<auth0_management_Ctx, typeof key>(key, ctx=>{

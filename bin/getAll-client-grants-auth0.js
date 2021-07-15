@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { auth0_management_fn, get_auth0_v2_client_grants, _audience } from '../dist'
+import { auth0_management_fn, get_auth0_v2_client_grants, _audience } from '../dist/index.js'
 //main()
 await main2()
 async function main() {

@@ -1,6 +1,6 @@
 import { be_, B } from '@ctx-core/object'
 import type { post_auth0_oauth_token_body_I } from '@ctx-core/auth0'
-import { auth0_audience__b } from './auth0_audience__b'
+import { auth0_audience__b } from './auth0_audience__b.js'
 import type { auth0_management_Ctx } from './auth0_management_Ctx'
 const key = 'auth0_management_client_credentials_body_'
 export const auth0_management_client_credentials_body__b:B<auth0_management_Ctx, typeof key> = be_<auth0_management_Ctx, typeof key>(key, ctx=>{
