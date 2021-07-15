@@ -1,5 +1,5 @@
 export * from './auth0_management_Ctx.js'
-export * from './auth0_management_ctx_I.generated'
+export * from './auth0_management_ctx_I.generated.js'
 export * from './auth0_audience__b.js'
 export * from './auth0_management_.js'
 export * from './auth0_management_client_credentials_body__b.js'
