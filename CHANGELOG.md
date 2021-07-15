@@ -1,5 +1,19 @@
 # @ctx-core/auth0-management
 
+## 6.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.0
+  - @ctx-core/fetch@11.0.0
+  - @ctx-core/object@21.0.0
+  - @ctx-core/store@27.0.0
+
 ## 5.0.44
 
 ### Patch Changes

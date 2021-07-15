@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-require = require('esm')(module)
-const { auth0_management_fn } = require('@ctx-core/auth0-management')
-main().then()
+import { auth0_management_fn } from '../dist'
+await main()
 // auth0.js clientGrants getAll
 async function main() {
 	const rest_argv_a = process.argv.slice(2)
