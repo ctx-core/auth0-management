@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 6.0.11
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.11
+  - @ctx-core/fetch@11.0.10
+  - @ctx-core/object@21.0.7
+  - @ctx-core/store@27.0.6
+
 ## 6.0.10
 
 ### Patch Changes
