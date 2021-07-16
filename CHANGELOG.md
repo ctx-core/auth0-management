@@ -1,5 +1,38 @@
 # @ctx-core/auth0-management
 
+## 6.0.9
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.9
+  - @ctx-core/fetch@11.0.8
+  - @ctx-core/object@21.0.5
+  - @ctx-core/store@27.0.4
+
+## 6.0.8
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.8
+  - @ctx-core/fetch@11.0.7
+  - @ctx-core/object@21.0.4
+  - @ctx-core/store@27.0.4
+
+## 6.0.7
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.7
+  - @ctx-core/fetch@11.0.7
+  - @ctx-core/object@21.0.4
+  - @ctx-core/store@27.0.4
+
 ## 6.0.6
 
 ### Patch Changes

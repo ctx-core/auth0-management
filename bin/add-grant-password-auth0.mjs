@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { patch_auth0_v2_client } from '../dist/index.mjs'
+import { patch_auth0_v2_client } from '../dist/index.js'
 await main()
 async function main() {
 	const response = await patch_auth0_v2_client({
