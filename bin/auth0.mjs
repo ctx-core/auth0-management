@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { auth0_management_fn } from '../dist/index.js'
+import { auth0_management_fn } from '../dist/index.mjs'
 await main()
 // auth0.js clientGrants getAll
 async function main() {
