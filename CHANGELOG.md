@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 6.0.12
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.12
+  - @ctx-core/fetch@11.0.11
+  - @ctx-core/object@21.0.8
+  - @ctx-core/store@27.0.7
+
 ## 6.0.11
 
 ### Patch Changes
