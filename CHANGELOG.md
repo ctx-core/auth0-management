@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 6.0.10
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.10
+  - @ctx-core/fetch@11.0.9
+  - @ctx-core/object@21.0.6
+  - @ctx-core/store@27.0.5
+
 ## 6.0.9
 
 ### Patch Changes
