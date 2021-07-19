@@ -1,5 +1,15 @@
 # @ctx-core/auth0-management
 
+## 6.0.20
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.20
+  - @ctx-core/object@21.0.12
+  - @ctx-core/store@27.0.11
+
 ## 6.0.19
 
 ### Patch Changes
