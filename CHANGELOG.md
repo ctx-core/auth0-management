@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 6.0.29
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.29
+
 ## 6.0.28
 
 ### Patch Changes
