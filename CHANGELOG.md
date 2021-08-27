@@ -1,5 +1,17 @@
 # @ctx-core/auth0-management
 
+## 6.0.65
+
+### Patch Changes
+
+- typescript: ^4.3.5 -> ^4.4.2
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.66
+  - @ctx-core/fetch@11.0.52
+  - @ctx-core/object@21.0.17
+  - @ctx-core/store@27.0.24
+
 ## 6.0.64
 
 ### Patch Changes
