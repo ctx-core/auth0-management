@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "6.0.78",
+	"version": "6.0.79",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -42,7 +42,7 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^25.0.79",
+		"@ctx-core/auth0": "workspace:^25.0.80",
 		"@ctx-core/fetch": "workspace:^11.0.64",
 		"@ctx-core/object": "workspace:^21.0.17",
 		"@ctx-core/store": "workspace:^27.0.26",
