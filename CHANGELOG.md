@@ -1,5 +1,21 @@
 # @ctx-core/auth0-management
 
+## 6.0.97
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- svelte: 3.43.1 -> 3.44.0
+- auth0: ^2.36.2 -> ^2.37.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/auth0@25.0.99
+  - @ctx-core/fetch@11.0.77
+  - @ctx-core/object@21.0.21
+  - @ctx-core/store@27.0.34
+
 ## 6.0.96
 
 ### Patch Changes
