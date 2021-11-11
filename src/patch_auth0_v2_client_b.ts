@@ -16,7 +16,7 @@ export const patch_auth0_v2_client_b:B<auth0_management_Ctx, typeof key> = be_<a
 		} = params
 		const auth0_token = await auth0_management_token_()
 		const authorization = verify_access_token_header_authorization_(auth0_token)
-		const url = `https://${AUTH0_DOMAIN$._}/api/v2/clients/${client_id}`
+		const url = `https://${AUTH0_DOMAIN$.$}/api/v2/clients/${client_id}`
 		return fetch(url, {
 			method: 'PATCH',
 			headers:

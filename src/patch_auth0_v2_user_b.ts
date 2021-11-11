@@ -19,7 +19,7 @@ export const patch_auth0_v2_user_b:B<auth0_management_Ctx, typeof key> = be_<aut
 	async function patch_auth0_v2_user(user_id:string, data:patch_auth0_v2_user_data_I) {
 		const auth0_management_token = await auth0_management_token_()
 		const authorization = verify_access_token_header_authorization_(auth0_management_token)
-		const url = `https://${AUTH0_DOMAIN$._}/api/v2/users/${user_id}`
+		const url = `https://${AUTH0_DOMAIN$.$}/api/v2/users/${user_id}`
 		return fetch(url, {
 			method: 'PATCH',
 			headers:
