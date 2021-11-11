@@ -3,7 +3,7 @@ import { fetch } from '@ctx-core/fetch'
 import { be_, B } from '@ctx-core/object'
 import { get } from '@ctx-core/store'
 import { query_str_ } from '@ctx-core/uri'
-import type { auth0_management_Ctx } from './auth0_management_Ctx'
+import type { auth0_management_Ctx } from './auth0_management_Ctx.js'
 import { auth0_management_token__b} from './auth0_management_token__b.js'
 const key = 'get_auth0_v2_client_grants'
 export const get_auth0_v2_client_grants_b:B<auth0_management_Ctx, typeof key> = be_<auth0_management_Ctx, typeof key>(key, ctx=>{
