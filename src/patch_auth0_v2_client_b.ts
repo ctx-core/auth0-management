@@ -1,8 +1,8 @@
+import { verify_access_token_header_authorization_, AUTH0_DOMAIN$_b } from '@ctx-core/auth0'
 import { be_, B } from '@ctx-core/object'
 import { fetch } from '@ctx-core/fetch'
-import { verify_access_token_header_authorization_, AUTH0_DOMAIN$_b } from '@ctx-core/auth0'
-import { auth0_management_token__b } from './auth0_management_token__b.js'
 import type { auth0_management_Ctx } from './auth0_management_Ctx.js'
+import { auth0_management_token__b } from './auth0_management_token__b.js'
 const key = 'patch_auth0_v2_client'
 export const patch_auth0_v2_client_b:B<auth0_management_Ctx, typeof key> = be_<auth0_management_Ctx, typeof key>(key, ctx=>{
 	const auth0_management_token_ = auth0_management_token__b(ctx)
