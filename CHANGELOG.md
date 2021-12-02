@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 6.0.109
+
+### Patch Changes
+
+- @swc/core: ^1.2.113 -> ^1.2.116
+- Updated dependencies
+  - @ctx-core/auth0@26.0.6
+  - @ctx-core/fetch@11.0.86
+  - @ctx-core/object@21.0.27
+  - @ctx-core/store@27.0.41
+
 ## 6.0.108
 
 ### Patch Changes
