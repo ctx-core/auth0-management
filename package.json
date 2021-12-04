@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "6.0.109",
+	"version": "6.0.110",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -41,18 +41,18 @@
 		"generate_ctx_I_file": "swc $(./node_modules/.bin/generate_ctx_I_file | tail -n1) --out-dir dist --source-maps --config-file .swcrc"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^26.0.6",
-		"@ctx-core/fetch": "workspace:^11.0.86",
-		"@ctx-core/object": "workspace:^21.0.27",
-		"@ctx-core/store": "workspace:^27.0.41",
+		"@ctx-core/auth0": "workspace:^26.0.7",
+		"@ctx-core/fetch": "workspace:^11.0.87",
+		"@ctx-core/object": "workspace:^21.0.28",
+		"@ctx-core/store": "workspace:^27.0.42",
 		"auth0": "^2.37.0",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.2.5",
-		"@ctx-core/uri": "workspace:^12.0.21",
+		"@ctx-core/dev-tools": "workspace:^7.2.6",
+		"@ctx-core/uri": "workspace:^12.0.22",
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.116",
+		"@swc/core": "^1.2.117",
 		"typescript": "next"
 	},
 	"publishConfig": {
