@@ -1,5 +1,15 @@
 # @ctx-core/auth0-management
 
+## 6.0.115
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/auth0@26.0.13
+  - @ctx-core/fetch@11.0.90
+  - @ctx-core/store@27.0.45
+
 ## 6.0.114
 
 ### Patch Changes
