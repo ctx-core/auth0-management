@@ -2,10 +2,9 @@ import type { Auth0UserProfile } from 'auth0-js'
 import { verify_access_token_header_authorization_, AUTH0_DOMAIN$_b } from '@ctx-core/auth0'
 import { be_, B } from '@ctx-core/object'
 import { fetch } from '@ctx-core/fetch'
-import type { auth0_management_Ctx } from './auth0_management_Ctx.js'
 import { auth0_management_token__b } from './auth0_management_token__b.js'
 const key = 'get_auth0_v2_users_by_email'
-export const get_auth0_v2_users_by_email_b:B<auth0_management_Ctx, typeof key> = be_<auth0_management_Ctx, typeof key>(key, ctx=>{
+export const get_auth0_v2_users_by_email_b:B<get_auth0_v2_users_by_email_T> = be_(key, ctx=>{
 	const auth0_management_token_ = auth0_management_token__b(ctx)
 	return get_auth0_v2_users_by_email as get_auth0_v2_users_by_email_T
 	async function get_auth0_v2_users_by_email(params:get_auth0_v2_users_by_email_params_I) {
