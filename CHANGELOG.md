@@ -1,5 +1,17 @@
 # @ctx-core/auth0-management
 
+## 7.0.2
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@27.0.2
+  - @ctx-core/fetch@11.0.94
+  - @ctx-core/object@22.0.1
+  - @ctx-core/store@27.0.48
+
 ## 7.0.1
 
 ### Patch Changes
