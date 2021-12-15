@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 7.0.3
+
+### Patch Changes
+
+- fix: package.json: exports
+- Updated dependencies
+  - @ctx-core/auth0@27.0.3
+  - @ctx-core/fetch@11.0.95
+  - @ctx-core/object@22.0.2
+  - @ctx-core/store@27.0.49
+
 ## 7.0.2
 
 ### Patch Changes
