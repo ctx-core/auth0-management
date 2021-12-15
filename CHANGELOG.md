@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 7.0.4
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/auth0@27.0.4
+  - @ctx-core/fetch@11.0.96
+  - @ctx-core/object@22.0.3
+  - @ctx-core/store@27.0.50
+
 ## 7.0.3
 
 ### Patch Changes
