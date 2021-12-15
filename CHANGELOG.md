@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 7.0.5
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/auth0@27.0.5
+  - @ctx-core/fetch@11.0.97
+  - @ctx-core/object@22.0.4
+  - @ctx-core/store@27.0.51
+
 ## 7.0.4
 
 ### Patch Changes
