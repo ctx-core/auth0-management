@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 7.0.7
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/auth0@27.0.7
+  - @ctx-core/fetch@11.0.99
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+
 ## 7.0.6
 
 ### Patch Changes
