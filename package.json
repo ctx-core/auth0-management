@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "7.0.5",
+	"version": "7.0.6",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -17,10 +17,10 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
 	},
@@ -31,23 +31,24 @@
 	},
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rimraf dist",
+		"clean": "rimraf dist && npm run clean_tsbuildinfo",
+		"clean_tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
 		"compile": "npm run compile_source && npm run compile_declaration",
 		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
-		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
+		"compile_declaration": "npm run clean_tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "workspace:^27.0.5",
-		"@ctx-core/fetch": "workspace:^11.0.97",
-		"@ctx-core/object": "workspace:^22.0.4",
-		"@ctx-core/store": "workspace:^27.0.51",
+		"@ctx-core/auth0": "workspace:^27.0.6",
+		"@ctx-core/fetch": "workspace:^11.0.98",
+		"@ctx-core/object": "workspace:^22.0.5",
+		"@ctx-core/store": "workspace:^27.0.52",
 		"auth0": "^2.37.0",
 		"svelte": "^3.44.3"
 	},
 	"devDependencies": {
-		"@ctx-core/uri": "workspace:^12.0.30",
+		"@ctx-core/uri": "workspace:^12.0.31",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"rimraf": "^3.0.2",
