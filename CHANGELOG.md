@@ -1,5 +1,14 @@
 # @ctx-core/auth0-management
 
+## 7.0.11
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/auth0@28.0.8
+  - @ctx-core/fetch@11.0.104
+
 ## 7.0.10
 
 ### Patch Changes
