@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 7.0.12
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.0.11
 
 ### Patch Changes
