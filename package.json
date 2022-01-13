@@ -49,7 +49,7 @@
 	"devDependencies": {
 		"@ctx-core/uri": "workspace:^12.0.38",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.128",
+		"@swc/core": "^1.2.129",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
