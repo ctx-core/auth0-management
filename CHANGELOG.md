@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 7.1.5
+
+### Patch Changes
+
+- fix: import
+
 ## 7.1.4
 
 ### Patch Changes
