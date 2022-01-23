@@ -12,12 +12,11 @@ export const get_auth0_v2_user_b:B<get_auth0_v2_user_T> = be_(key, ctx=>{
 		const url = `https://${AUTH0_DOMAIN}/api/v2/users/${user_id}`
 		return fetch(url, {
 			method: 'GET',
-			headers:
-				{
-					'Content-Type': 'application/json',
-					authorization,
-				},
-		}) as Promise<Response>
+			headers: {
+				'Content-Type': 'application/json',
+				authorization,
+			},
+		})
 	}
 })
 export interface get_auth0_v2_user_params_T {

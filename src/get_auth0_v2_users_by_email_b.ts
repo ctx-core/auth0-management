@@ -1,7 +1,7 @@
 import type { Auth0UserProfile } from 'auth0-js'
 import { verify_access_token_header_authorization_, AUTH0_DOMAIN$_b } from '@ctx-core/auth0'
-import { be_, B } from '@ctx-core/object'
 import { safe_fetch as fetch } from '@ctx-core/fetch-undici'
+import { be_, B } from '@ctx-core/object'
 import { auth0_management_token__b } from './auth0_management_token__b.js'
 const key = 'get_auth0_v2_users_by_email'
 export const get_auth0_v2_users_by_email_b:B<get_auth0_v2_users_by_email_T> = be_(key, ctx=>{
@@ -15,11 +15,10 @@ export const get_auth0_v2_users_by_email_b:B<get_auth0_v2_users_by_email_T> = be
 		const url = `https://${AUTH0_DOMAIN}/api/v2/users-by-email?email=${encodeURIComponent(email)}`
 		return await fetch(url, {
 			method: 'GET',
-			headers:
-				{
-					'Content-Type': 'application/json',
-					authorization,
-				},
+			headers: {
+				'Content-Type': 'application/json',
+				authorization,
+			},
 		})
 	}
 })

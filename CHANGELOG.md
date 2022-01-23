@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 7.1.1
+
+### Patch Changes
+
+- dom types: fetch,Request,Response
+- Updated dependencies
+  - @ctx-core/fetch-undici@1.0.1
+
 ## 7.1.0
 
 ### Minor Changes

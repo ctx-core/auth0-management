@@ -21,11 +21,10 @@ export const patch_auth0_v2_user_b:B<patch_auth0_v2_user_T> = be_(key, ctx=>{
 		const url = `https://${AUTH0_DOMAIN$.$}/api/v2/users/${user_id}`
 		return fetch(url, {
 			method: 'PATCH',
-			headers:
-				{
-					'Content-Type': 'application/json',
-					authorization,
-				},
+			headers: {
+				'Content-Type': 'application/json',
+				authorization,
+			},
 			body: JSON.stringify(data),
 		})
 	}

@@ -1,6 +1,6 @@
 import { verify_access_token_header_authorization_, AUTH0_DOMAIN$_b } from '@ctx-core/auth0'
-import { be_, B } from '@ctx-core/object'
 import { safe_fetch as fetch } from '@ctx-core/fetch-undici'
+import { be_, B } from '@ctx-core/object'
 import { auth0_management_token__b } from './auth0_management_token__b.js'
 const key = 'patch_auth0_v2_client'
 export const patch_auth0_v2_client_b:B<patch_auth0_v2_client_T> = be_(key, ctx=>{
@@ -18,11 +18,10 @@ export const patch_auth0_v2_client_b:B<patch_auth0_v2_client_T> = be_(key, ctx=>
 		const url = `https://${AUTH0_DOMAIN$.$}/api/v2/clients/${client_id}`
 		return fetch(url, {
 			method: 'PATCH',
-			headers:
-				{
-					'Content-Type': 'application/json',
-					authorization,
-				},
+			headers: {
+				'Content-Type': 'application/json',
+				authorization,
+			},
 			body: body || JSON.stringify(json),
 		})
 	}

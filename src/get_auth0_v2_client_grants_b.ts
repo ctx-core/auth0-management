@@ -2,7 +2,7 @@ import { verify_access_token_header_authorization_, AUTH0_DOMAIN$_b } from '@ctx
 import { safe_fetch as fetch } from '@ctx-core/fetch-undici'
 import { be_, B } from '@ctx-core/object'
 import { query_str_ } from '@ctx-core/uri'
-import { auth0_management_token__b} from './auth0_management_token__b.js'
+import { auth0_management_token__b } from './auth0_management_token__b.js'
 const key = 'get_auth0_v2_client_grants'
 export const get_auth0_v2_client_grants_b:B<get_auth0_v2_client_grants_T> = be_(key, ctx=>{
 	const auth0_management_token_ = auth0_management_token__b(ctx)
@@ -17,11 +17,10 @@ export const get_auth0_v2_client_grants_b:B<get_auth0_v2_client_grants_T> = be_(
 		const url = `https://${AUTH0_DOMAIN$.$}/api/v2/client-grants?${query || query_str_(json)}`
 		return fetch(url, {
 			method: 'GET',
-			headers:
-				{
-					'Content-Type': 'application/json',
-					authorization,
-				},
+			headers: {
+				'Content-Type': 'application/json',
+				authorization,
+			},
 		})
 	}
 })
