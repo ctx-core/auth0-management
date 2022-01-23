@@ -1,17 +1,13 @@
 #!/usr/bin/env node
-import { auth0_management_fn, get_auth0_v2_client_grants, _audience } from '../lib/index.js'
-//main()
-await main2()
+import { ctx_ } from '@ctx-core/object'
+import { get_auth0_v2_client_grants_b, auth0_audience__b } from '../src/index.js'
+await main()
 async function main() {
-	const management_auth0 = auth0_management_fn()
-	const clientGrant_a = await management_auth0.clientGrants.getAll()
-	console.info(JSON.stringify(clientGrant_a, null, 2))
-}
-async function main2() {
-	const response = await get_auth0_v2_client_grants({
+	const ctx = ctx_()
+	const response = await get_auth0_v2_client_grants_b(ctx)({
 		json: {
 			client_id: process.env.AUTH0_CLIENT_ID,
-			audience: _audience()
+			audience: auth0_audience__b(ctx)()
 		}
 	})
 	const json = await response.json()

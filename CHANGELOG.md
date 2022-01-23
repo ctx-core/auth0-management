@@ -1,5 +1,12 @@
 # @ctx-core/auth0-management
 
+## 7.1.2
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- fix: add-grant-password-auth0,auth0,getAll-client-grants-auth0
+
 ## 7.1.1
 
 ### Patch Changes

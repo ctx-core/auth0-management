@@ -1,8 +1,10 @@
 #!/usr/bin/env node
-import { patch_auth0_v2_client } from '../lib/index.js'
+import { ctx_ } from '@ctx-core/object'
+import { patch_auth0_v2_client_b } from '../src/index.js'
 await main()
 async function main() {
-	const response = await patch_auth0_v2_client({
+	const ctx = ctx_()
+	const response = await patch_auth0_v2_client_b(ctx)({
 		json: {
 			grant_types: [
 				'password',
