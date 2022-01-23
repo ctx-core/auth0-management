@@ -4,7 +4,7 @@ import { patch_auth0_v2_client_b } from '../src/index.js'
 await main()
 async function main() {
 	const ctx = ctx_()
-	const response = await patch_auth0_v2_client_b(ctx)({
+	const [client] = await patch_auth0_v2_client_b(ctx)({
 		json: {
 			grant_types: [
 				'password',
@@ -12,6 +12,5 @@ async function main() {
 			],
 		},
 	})
-	const json = await response.json()
-	console.info(JSON.stringify(json, null, 2))
+	console.info(JSON.stringify(client, null, 2))
 }

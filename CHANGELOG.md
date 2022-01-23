@@ -1,5 +1,22 @@
 # @ctx-core/auth0-management
 
+## 8.0.0
+
+### Major Changes
+
+- all \_b use fetch return pairs [payload, response]
+
+### Patch Changes
+
+- use fetch instead of safe_fetch
+- use fetch instead of safe_fetch
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@29.0.0
+  - @ctx-core/fetch-undici@1.1.0
+
 ## 7.1.5
 
 ### Patch Changes
