@@ -1,8 +1,6 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
-    "jsxImportSource": "solid-js",
-    "jsx": "preserve",
 		"allowJs": true,
 		"lib": ["ESNext"],
 		"module": "esnext",
