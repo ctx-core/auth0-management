@@ -2,7 +2,6 @@ import { ManagementClient } from 'auth0'
 /**
  * @param {import('./auth0_management_.d.ts').auth0_management_params_I} params
  * @returns {import('auth0').ManagementClient}
- * @private
  */
 export function auth0_management_(params = {}) {
 	const domain = params.domain || process.env.AUTH0_DOMAIN || ''
