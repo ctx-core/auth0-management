@@ -6,5 +6,5 @@ export declare function patch_auth0_v2_user(
 	ctx:Ctx, user_id:string, data:patch_auth0_v2_user_data_T
 ):Promise<[UpdateUserData|Auth0Error, Response]>
 export interface patch_auth0_v2_user_data_T extends Partial<UserData> {
-	password?:string;
+	password?:string
 }
