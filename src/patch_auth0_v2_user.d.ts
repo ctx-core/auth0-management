@@ -1,5 +1,5 @@
 /// <reference lib="dom" />
-import { B, Ctx } from '@ctx-core/object'
+import { Ctx } from '@ctx-core/object'
 import type { UserData, UpdateUserData } from 'auth0'
 import type { Auth0Error } from 'auth0-js'
 export declare function patch_auth0_v2_user(
