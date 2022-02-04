@@ -6,7 +6,6 @@ import { auth0_management_client_credentials_body_ } from './auth0_management_cl
  */
 export async function auth0_management_token_(ctx) {
 	const [token_response] = await post_auth0_oauth_token(
-		ctx, auth0_management_client_credentials_body_(ctx)
-	)
+		ctx, auth0_management_client_credentials_body_(ctx))
 	return token_response
 }
