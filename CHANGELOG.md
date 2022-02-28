@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 9.0.31
+
+### Patch Changes
+
+- fix: revert headers\_ for fetch calls
+- Updated dependencies
+  - @ctx-core/auth0@33.2.3
+
 ## 9.0.30
 
 ### Patch Changes
