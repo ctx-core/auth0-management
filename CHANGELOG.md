@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 9.0.30
+
+### Patch Changes
+
+- fix: get*auth0_v2_client_grants,get_auth0_v2_user,get_auth0_v2_users_by_email,patch_auth0_v2_client,patch_auth0_v2_user: headers*
+- Updated dependencies
+  - @ctx-core/auth0@33.2.2
+
 ## 9.0.29
 
 ### Patch Changes

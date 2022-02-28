@@ -1,5 +1,5 @@
 import { verify_access_token_header_authorization, AUTH0_DOMAIN$_ } from '@ctx-core/auth0'
-import { fetch } from '@ctx-core/fetch-undici'
+import { fetch, headers_ } from '@ctx-core/fetch-undici'
 import { query_str_ } from '@ctx-core/uri'
 import { auth0_management_token_ } from './auth0_management_token_.js'
 /** @typedef {import('auth0').CreateClientGrant}CreateClientGrant */
@@ -15,10 +15,10 @@ export async function get_auth0_v2_client_grants(ctx, params) {
 	const url = `https://${AUTH0_DOMAIN$_(ctx).$}/api/v2/client-grants?${query || query_str_(json)}`
 	const res = await fetch(url, {
 		method: 'GET',
-		headers: {
+		headers: headers_({
 			'Content-Type': 'application/json',
 			authorization
-		}
+		})
 	})
 	/** @type {CreateClientGrant} */
 	const create_client_grant = await res.json()

@@ -1,5 +1,5 @@
 import { verify_access_token_header_authorization, AUTH0_DOMAIN$_ } from '@ctx-core/auth0'
-import { fetch } from '@ctx-core/fetch-undici'
+import { fetch, headers_ } from '@ctx-core/fetch-undici'
 import { auth0_management_token_ } from './auth0_management_token_.js'
 /** @type {import('auth0-js').Auth0UserProfile}Auth0UserProfile */
 /**
@@ -15,10 +15,10 @@ export async function get_auth0_v2_users_by_email(ctx, params) {
 	const url = `https://${AUTH0_DOMAIN}/api/v2/users-by-email?email=${encodeURIComponent(email)}`
 	const res = await fetch(url, {
 		method: 'GET',
-		headers: {
+		headers: headers_({
 			'Content-Type': 'application/json',
 			authorization
-		}
+		})
 	})
 	/** @type {Auth0UserProfile[]} */
 	const auth0_user_profile_a = await res.json()
