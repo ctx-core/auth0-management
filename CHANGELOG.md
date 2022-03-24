@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 9.0.41
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/uri@12.0.41
+
 ## 9.0.40
 
 ### Patch Changes
