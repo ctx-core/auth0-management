@@ -37,9 +37,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^34.2.12",
+		"@ctx-core/auth0": "^34.2.13",
 		"@ctx-core/fetch-undici": "^2.1.1",
-		"@ctx-core/object": "^22.1.5",
+		"@ctx-core/object": "^22.1.6",
 		"@ctx-core/uri": "^12.0.44",
 		"auth0": "^2.40.0"
 	},
