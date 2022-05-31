@@ -1,4 +1,4 @@
-import { verify_access_token_header_authorization, AUTH0_DOMAIN$_ } from '@ctx-core/auth0'
+import { verify_access_token_header_authorization, AUTH0_DOMAIN__ } from '@ctx-core/auth0'
 import { fetch } from '@ctx-core/fetch-undici'
 import { auth0_management_token_ } from './auth0_management_token_.js'
 /** @typedef {import('auth0').UpdateUserData}UpdateUserData */
@@ -19,7 +19,7 @@ export async function patch_auth0_v2_user(
 ) {
 	const auth0_management_token = await auth0_management_token_(ctx)
 	const authorization = verify_access_token_header_authorization(auth0_management_token)
-	const url = `https://${AUTH0_DOMAIN$_(ctx).$}/api/v2/users/${user_id}`
+	const url = `https://${AUTH0_DOMAIN__(ctx).$}/api/v2/users/${user_id}`
 	const res = await fetch(url, {
 		method: 'PATCH',
 		headers: {
