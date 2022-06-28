@@ -1,6 +1,6 @@
 import { verify_access_token_header_authorization, AUTH0_DOMAIN__ } from '@ctx-core/auth0'
 import { fetch } from '@ctx-core/fetch-undici'
-import { auth0_management_token_ } from './auth0_management_token_.js'
+import { auth0_management_token_ } from '../auth0_management_token_/index.js'
 /** @type {import('auth0-js').Auth0UserProfile}Auth0UserProfile */
 /**
  * @param {import('@ctx-core/object').Ctx}ctx

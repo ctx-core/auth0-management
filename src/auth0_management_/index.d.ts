@@ -1,4 +1,4 @@
-import { ManagementClient } from 'auth0'
+import { type ManagementClient } from 'auth0'
 export declare function auth0_management_(
 	params?:auth0_management_params_I
 ):ManagementClient<import('auth0').AppMetadata, import('auth0').UserMetadata>

@@ -1,6 +1,6 @@
 /// <reference lib="dom" />
-import { Ctx } from '@ctx-core/object'
-import type { Client } from 'auth0'
+import { type Ctx } from '@ctx-core/object'
+import { type Client } from 'auth0'
 export declare function patch_auth0_v2_client(
 	ctx:Ctx, params:patch_auth0_v2_client_params_T
 ):Promise<[Client, Response]>

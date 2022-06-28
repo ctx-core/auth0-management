@@ -1,7 +1,7 @@
 import { verify_access_token_header_authorization, AUTH0_DOMAIN__ } from '@ctx-core/auth0'
 import { fetch } from '@ctx-core/fetch-undici'
 import { query_str_ } from '@ctx-core/uri'
-import { auth0_management_token_ } from './auth0_management_token_.js'
+import { auth0_management_token_ } from '../auth0_management_token_/index.js'
 /** @typedef {import('auth0').CreateClientGrant}CreateClientGrant */
 /**
  * @param {import('@ctx-core/object').Ctx}ctx

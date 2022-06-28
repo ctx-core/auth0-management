@@ -1,4 +1,4 @@
-import { auth0_audience_ } from './auth0_audience_.js'
+import { auth0_audience_ } from '../auth0_audience_/index.js'
 /**
  * @param {import('@ctx-core/object').Ctx}ctx
  * @return {import('@ctx-core/auth0').post_auth0_oauth_token_body_I}
