@@ -44,13 +44,13 @@
 		"auth0": "^2.42.0"
 	},
 	"devDependencies": {
-		"@types/auth0": "^2.35.1",
+		"@types/auth0": "^2.35.2",
 		"@types/auth0-js": "^9.14.6",
 		"c8": "^7.11.3",
 		"check-dts": "^0.6.7",
 		"tsm": "^2.2.1",
 		"typescript": "next",
-		"uvu": "^0.5.5"
+		"uvu": "^0.5.6"
 	},
 	"publishConfig": {
 		"access": "public",
