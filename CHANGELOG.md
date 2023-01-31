@@ -1,5 +1,16 @@
 # @ctx-core/auth0-management
 
+## 9.0.135
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/auth0@35.0.78
+  - @ctx-core/fetch-undici@2.3.57
+  - @ctx-core/object@24.1.1
+  - @ctx-core/uri@12.0.66
+
 ## 9.0.134
 
 ### Patch Changes
