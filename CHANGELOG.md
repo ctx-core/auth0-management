@@ -1,5 +1,12 @@
 # @ctx-core/auth0-management
 
+## 9.0.138
+
+### Patch Changes
+
+- @ctx-core/auth0: ^35.0.80 -> ^35.0.81
+- @ctx-core/fetch-undici: ^2.3.59 -> ^2.3.60
+
 ## 9.0.137
 
 ### Patch Changes
