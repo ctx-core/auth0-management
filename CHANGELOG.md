@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 9.0.144
+
+### Patch Changes
+
+- import type { ... } instead of import { type ... }
+- Updated dependencies
+  - @ctx-core/auth0@35.0.87
+
 ## 9.0.143
 
 ### Patch Changes
