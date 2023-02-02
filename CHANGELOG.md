@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 9.0.145
+
+### Patch Changes
+
+- auth0*management*: import type { AppMetadata, ManagementClient, UserMetadata } from 'auth0'
+- Updated dependencies
+  - @ctx-core/auth0@35.0.88
+
 ## 9.0.144
 
 ### Patch Changes
