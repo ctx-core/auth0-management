@@ -1,6 +1,6 @@
 import { ManagementClient } from 'auth0'
 /**
- * @param {import('./auth0_management_.d.ts').auth0_management_params_I} params
+ * @param {import('./auth0_management_.d.ts').auth0_management__params_T} params
  * @returns {import('auth0').ManagementClient}
  */
 export function auth0_management_(params = {}) {
