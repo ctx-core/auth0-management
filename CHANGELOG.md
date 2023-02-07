@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 9.1.4
+
+### Patch Changes
+
+- fix: auth0**oauth_token**fetch_get=>auth0**oauth_token**fetch_post,auth0**passwordless_start**fetch_get=>auth0**passwordless_start**fetch_post
+
 ## 9.1.3
 
 ### Patch Changes
