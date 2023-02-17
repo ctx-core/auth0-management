@@ -9,8 +9,8 @@ import { auth0_management__token_ } from '../auth0_management__token_/index.js'
  */
 export async function auth0__v2_client__fetch_get(ctx, params) {
 	const { client_id = process.env.AUTH0_CLIENT_ID, body, json, } = params
-	const auth0_token = await auth0_management__token_(ctx)
-	const authorization = header__access_token__verify(auth0_token)
+	const auth0_management__token = await auth0_management__token_(ctx)
+	const authorization = header__access_token__verify(auth0_management__token)
 	const url = `https://${AUTH0_DOMAIN__(ctx).$}/api/v2/clients/${client_id}`
 	const res = await fetch(url, {
 		method: 'PATCH',

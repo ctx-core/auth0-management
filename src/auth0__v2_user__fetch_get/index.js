@@ -9,8 +9,8 @@ import { auth0_management__token_ } from '../auth0_management__token_/index.js'
  */
 export async function auth0__v2_user__fetch_get(ctx, params) {
 	const { AUTH0_DOMAIN, user_id } = params
-	const auth0_token = await auth0_management__token_(ctx)
-	const authorization = header__access_token__verify(auth0_token)
+	const auth0__token = await auth0_management__token_(ctx)
+	const authorization = header__access_token__verify(auth0__token)
 	const url = `https://${AUTH0_DOMAIN}/api/v2/users/${user_id}`
 	const res = await fetch(url, {
 		method: 'GET',

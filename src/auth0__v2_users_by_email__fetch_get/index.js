@@ -10,8 +10,8 @@ import { auth0_management__token_ } from '../auth0_management__token_/index.js'
 export async function auth0__v2_users_by_email__fetch_get(ctx, params) {
 	const { email } = params
 	const AUTH0_DOMAIN = params.AUTH0_DOMAIN || AUTH0_DOMAIN__(ctx).$
-	const auth0_token = await auth0_management__token_(ctx)
-	const authorization = header__access_token__verify(auth0_token)
+	const auth0__token = await auth0_management__token_(ctx)
+	const authorization = header__access_token__verify(auth0__token)
 	const url = `https://${AUTH0_DOMAIN}/api/v2/users-by-email?email=${encodeURIComponent(email)}`
 	const res = await fetch(url, {
 		method: 'GET',

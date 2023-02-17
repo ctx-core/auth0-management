@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 9.1.43
+
+### Patch Changes
+
+- variable names: auth0_token=>auth0\_\_token
+- Updated dependencies
+  - @ctx-core/auth0@35.6.1
+
 ## 9.1.42
 
 ### Patch Changes

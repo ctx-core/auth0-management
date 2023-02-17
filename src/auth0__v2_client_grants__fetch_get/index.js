@@ -10,8 +10,8 @@ import { auth0_management__token_ } from '../auth0_management__token_/index.js'
  */
 export async function auth0__v2_client_grants__fetch_get(ctx, params) {
 	const { query, json } = params
-	const auth0_token = await auth0_management__token_(ctx)
-	const authorization = header__access_token__verify(auth0_token)
+	const auth0__token = await auth0_management__token_(ctx)
+	const authorization = header__access_token__verify(auth0__token)
 	const url = `https://${AUTH0_DOMAIN__(ctx).$}/api/v2/client-grants?${query || query_str_(json)}`
 	const res = await fetch(url, {
 		method: 'GET',
