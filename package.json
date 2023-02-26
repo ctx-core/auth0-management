@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "9.1.102",
+	"version": "9.1.103",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -38,7 +38,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/auth0": "^37.0.0",
-		"@ctx-core/env": "workspace:^17.2.18",
+		"@ctx-core/env": "^17.2.18",
 		"@ctx-core/fetch-undici": "^2.3.114",
 		"@ctx-core/object": "^26.0.0",
 		"@ctx-core/uri": "^12.1.10",
