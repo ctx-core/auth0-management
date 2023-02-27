@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 9.1.106
+
+### Patch Changes
+
+- @ctx-core/uri: ^12.2.0 -> ^12.3.0
+
 ## 9.1.105
 
 ### Patch Changes
