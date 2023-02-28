@@ -1,5 +1,29 @@
 # @ctx-core/auth0-management
 
+## 9.2.0
+
+### Minor Changes
+
+- auth0**v2_user**fetch_patch: returns Promise<[UpdateUserData|auth0__error_T, Response]>
+- - AUTH0*MANAGEMENT_ID\_\_,AUTH0_MANAGEMENT_ID*,AUTH0_MANAGEMENT_ID\_\_set
+- - AUTH0*MANAGEMENT_SECRET\_\_,AUTH0_MANAGEMENT_SECRET*,AUTH0_MANAGEMENT_SECRET\_\_set
+- - auth0**v2_user**fetch_get\_\_params_T: aliased by get_auth0_v2_user_params_T
+
+    AUTH0_DOMAIN?:string
+
+### Patch Changes
+
+- ∋ @ctx-core/error,@ctx-core/nanostores
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/error@11.6.11
+  - @ctx-core/auth0@37.5.0
+
 ## 9.1.112
 
 ### Patch Changes
