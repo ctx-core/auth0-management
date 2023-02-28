@@ -1,4 +1,4 @@
-import { header__access_token__verify, AUTH0_DOMAIN__ } from '@ctx-core/auth0'
+import { AUTH0_DOMAIN_, header__access_token__verify } from '@ctx-core/auth0'
 import { fetch } from '@ctx-core/fetch-undici'
 import { query_str_ } from '@ctx-core/uri'
 import { auth0_management__token_ } from '../auth0_management__token_/index.js'
@@ -8,11 +8,14 @@ import { auth0_management__token_ } from '../auth0_management__token_/index.js'
  * @param {import('./auth0__v2_client_grants__fetch_get.d.ts').auth0__v2_client_grants__fetch__params_T}params
  * @return {Promise<[CreateClientGrant, Response]>}
  */
-export async function auth0__v2_client_grants__fetch_get(ctx, params) {
+export async function auth0__v2_client_grants__fetch_get(
+	ctx,
+	params
+) {
 	const { query, json } = params
 	const auth0__token = await auth0_management__token_(ctx)
 	const authorization = header__access_token__verify(auth0__token)
-	const url = `https://${AUTH0_DOMAIN__(ctx).$}/api/v2/client-grants?${query || query_str_(json)}`
+	const url = `https://${AUTH0_DOMAIN_(ctx)}/api/v2/client-grants?${query || query_str_(json)}`
 	const res = await fetch(url, {
 		method: 'GET',
 		headers: {

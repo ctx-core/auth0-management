@@ -1,13 +1,27 @@
-import { import_meta_env_ } from '@ctx-core/env'
+import { AUTH0_DOMAIN_ } from '@ctx-core/auth0'
 import { ManagementClient } from 'auth0'
+import { AUTH0_MANAGEMENT_ID_ } from '../AUTH0_MANAGEMENT_ID__/index.js'
+import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET__/index.js'
 /**
  * @param {import('./auth0_management_.d.ts').auth0_management__params_T} params
  * @returns {import('auth0').ManagementClient}
  */
-export function auth0_management_(params = {}) {
-	const domain = params.domain || import_meta_env_().AUTH0_DOMAIN || ''
-	const clientId = params.clientId || import_meta_env_().AUTH0_MANAGEMENT_ID || ''
-	const clientSecret = params.clientSecret || import_meta_env_().AUTH0_MANAGEMENT_SECRET || ''
+export function auth0_management_(
+	ctx,
+	params = {}
+) {
+	const domain =
+		params.AUTH0_DOMAIN
+		|| AUTH0_DOMAIN_(ctx)
+		|| ''
+	const clientId =
+		params.AUTH0_MANAGEMENT_ID
+		|| AUTH0_MANAGEMENT_ID_(ctx)
+		|| ''
+	const clientSecret =
+		params.AUTH0_MANAGEMENT_SECRET
+		|| AUTH0_MANAGEMENT_SECRET_(ctx)
+		|| ''
 	const scope = ''
 	return new ManagementClient({
 		domain,
