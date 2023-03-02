@@ -47,7 +47,7 @@
 		"auth0": "^3.2.0"
 	},
 	"devDependencies": {
-		"@types/auth0": "^2.35.9",
+		"@types/auth0": "^2.35.10",
 		"@types/auth0-js": "^9.14.7",
 		"c8": "^7.13.0",
 		"check-dts": "^0.7.0",
