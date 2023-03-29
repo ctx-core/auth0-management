@@ -15,7 +15,7 @@ export async function auth0_management__token_(ctx) {
 		/** @type {Auth0Error} */
 		const auth0_error = payload
 		http_error__throw({
-			http_status: response.status,
+			http__status: response.status,
 			error_message: `${auth0_error.error}: ${auth0_error.error_description}`,
 		})
 	}
