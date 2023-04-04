@@ -1,7 +1,8 @@
 import type { Ctx } from '@ctx-core/object'
 import type { Client } from 'auth0'
 export declare function auth0__v2_client__fetch_get(
-	ctx:Ctx, params:auth0__v2_client__fetch__params_T
+	ctx:Ctx,
+	params:auth0__v2_client__fetch__params_T
 ):Promise<[Client, Response]>
 export {
 	auth0__v2_client__fetch_get as patch_auth0_v2_client,

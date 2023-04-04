@@ -1,7 +1,8 @@
 import type { Ctx } from '@ctx-core/object'
 import type { User } from 'auth0'
 export declare function auth0__v2_user__fetch_get(
-	ctx:Ctx, params:auth0__v2_user__fetch_get__params_T
+	ctx:Ctx,
+	params:auth0__v2_user__fetch_get__params_T
 ):Promise<[User, Response]>
 export {
 	auth0__v2_user__fetch_get as get_auth0_v2_user,
