@@ -38,11 +38,11 @@
 	},
 	"dependencies": {
 		"@ctx-core/auth0": "^38.0.39",
-		"@ctx-core/env": "^17.2.63",
+		"@ctx-core/env": "^17.2.75",
 		"@ctx-core/error": "^12.3.7",
 		"@ctx-core/fetch-undici": "^2.6.17",
 		"@ctx-core/nanostores": "3.2.3",
-		"@ctx-core/object": "^27.4.4",
+		"@ctx-core/object": "^27.4.16",
 		"@ctx-core/uri": "^12.4.19",
 		"auth0": "^3.3.0"
 	},
