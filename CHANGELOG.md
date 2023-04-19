@@ -1,5 +1,19 @@
 # @ctx-core/auth0-management
 
+## 9.2.149
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/auth0@38.0.59
+  - @ctx-core/env@17.2.83
+  - @ctx-core/error@12.3.26
+  - @ctx-core/fetch-undici@2.6.36
+  - @ctx-core/nanostores@3.2.22
+  - @ctx-core/object@27.4.23
+  - @ctx-core/uri@12.4.38
+
 ## 9.2.148
 
 ### Patch Changes
