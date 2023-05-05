@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 9.4.3
+
+### Patch Changes
+
+- dependencies: @ctx-core/fetch: - workspace
+
 ## 9.4.2
 
 ### Patch Changes
