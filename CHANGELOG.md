@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 9.2.185
+
+### Patch Changes
+
+- fix: load auth0-management using createRequire
+
 ## 9.2.184
 
 ### Patch Changes
@@ -1581,10 +1587,10 @@
 
 ### Minor Changes
 
-- auth0\__v2_user\__fetch_patch: returns Promise<[UpdateUserData|auth0__error_T, Response]>
-- - AUTH0_MANAGEMENT_ID\__,AUTH0_MANAGEMENT_ID_,AUTH0_MANAGEMENT_ID\__set
-- - AUTH0_MANAGEMENT_SECRET\__,AUTH0_MANAGEMENT_SECRET_,AUTH0_MANAGEMENT_SECRET\__set
-- - auth0\__v2_user\__fetch_get\__params_T: aliased by get_auth0_v2_user_params_T
+- auth0\_\_v2_user\_\_fetch_patch: returns Promise<[UpdateUserData|auth0__error_T, Response]>
+- - AUTH0_MANAGEMENT_ID\__,AUTH0_MANAGEMENT_ID_,AUTH0_MANAGEMENT_ID\_\_set
+- - AUTH0_MANAGEMENT_SECRET\__,AUTH0_MANAGEMENT_SECRET_,AUTH0_MANAGEMENT_SECRET\_\_set
+- - auth0\_\_v2_user\_\_fetch_get\_\_params_T: aliased by get_auth0_v2_user_params_T
 
     AUTH0_DOMAIN?:string
 
@@ -1670,7 +1676,7 @@
 
 ### Patch Changes
 
-- import_meta_env_() instead of process.env
+- import*meta_env*() instead of process.env
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
@@ -2126,7 +2132,7 @@
 
 ### Patch Changes
 
-- variable names: auth0_token=>auth0\__token
+- variable names: auth0_token=>auth0\_\_token
 - Updated dependencies
   - @ctx-core/auth0@35.6.1
 
@@ -2382,7 +2388,7 @@
 
 ### Patch Changes
 
-- fix: auth0\__oauth_token\__fetch_get=>auth0\__oauth_token\__fetch_post,auth0\__passwordless_start\__fetch_get=>auth0\__passwordless_start\__fetch_post
+- fix: auth0\_\_oauth_token\_\_fetch_get=>auth0\_\_oauth_token\_\_fetch_post,auth0\_\_passwordless_start\_\_fetch_get=>auth0\_\_passwordless_start\_\_fetch_post
 
 ## 9.1.3
 
@@ -2490,7 +2496,7 @@
 
 ### Patch Changes
 
-- auth0_management_: import type { AppMetadata, ManagementClient, UserMetadata } from 'auth0'
+- auth0*management*: import type { AppMetadata, ManagementClient, UserMetadata } from 'auth0'
 - Updated dependencies
   - @ctx-core/auth0@35.0.88
 
@@ -3413,7 +3419,7 @@
 
 ### Patch Changes
 
-- fix: get_auth0_v2_client_grants,get_auth0_v2_user,get_auth0_v2_users_by_email,patch_auth0_v2_client,patch_auth0_v2_user: headers_
+- fix: get*auth0_v2_client_grants,get_auth0_v2_user,get_auth0_v2_users_by_email,patch_auth0_v2_client,patch_auth0_v2_user: headers*
 - Updated dependencies
   - @ctx-core/auth0@33.2.2
 
@@ -3925,7 +3931,7 @@
 
 ### Major Changes
 
-- \__b: ctx is a map: @ctx-core/object: 22.0.0
+- \_\_b: ctx is a map: @ctx-core/object: 22.0.0
 
 ### Patch Changes
 
@@ -4716,7 +4722,7 @@
 
 ### Patch Changes
 
-- fix: \__ctx_I.generated
+- fix: \_\_ctx_I.generated
 - Updated dependencies [undefined]
   - @ctx-core/auth0@25.0.29
 
