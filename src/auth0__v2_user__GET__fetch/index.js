@@ -3,14 +3,14 @@ import { fetch, fetch__template_pair_ } from '@ctx-core/fetch-undici'
 import { auth0_management__token_ } from '../auth0_management__token_/index.js'
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('auth0').User}User */
-/** @typedef {import('./auth0__v2_user__GET__fetch2.d.ts').auth0__v2_user__GET__fetch2__params_T}auth0__v2_user__GET__fetch2__params_T */
+/** @typedef {import('./auth0__v2_user__GET__fetch2.d.ts').auth0__v2_user__GET__fetch__params_T}auth0__v2_user__GET__fetch__params_T */
 export const [
 	auth0__v2_user__GET__fetch,
 	auth0__v2_user__GET__fetch2,
 ] = fetch__template_pair_(
 	/**
 	 * @param {Ctx}ctx
-	 * @param {auth0__v2_user__GET__fetch2__params_T}params
+	 * @param {auth0__v2_user__GET__fetch__params_T}params
 	 * @return {Promise<[User, Response]>}
 	 */
 	async(ctx, params)=>{

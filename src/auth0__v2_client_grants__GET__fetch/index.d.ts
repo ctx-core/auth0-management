@@ -7,7 +7,7 @@ export declare const [
 ]:fetch__template_pair_T<
 	[
 		ctx:Ctx,
-		params:auth0__v2_client_grants__fetch__params_T
+		params:auth0__v2_client_grants__GET__fetch__params_T
 	],
 	CreateClientGrant
 >
@@ -15,8 +15,9 @@ export {
 	auth0__v2_client_grants__GET__fetch2 as auth0__v2_client_grants__fetch_get,
 	auth0__v2_client_grants__GET__fetch2 as get_auth0_v2_client_grants,
 }
-export interface auth0__v2_client_grants__fetch__params_T {
+export interface auth0__v2_client_grants__GET__fetch__params_T {
 	query?:string
 	json?:any
 }
-export declare type get_auth0_v2_client_grants_params_T = auth0__v2_client_grants__fetch__params_T
+export type auth0__v2_client_grants__fetch_get__params_T = auth0__v2_client_grants__GET__fetch__params_T
+export declare type get_auth0_v2_client_grants_params_T = auth0__v2_client_grants__GET__fetch__params_T

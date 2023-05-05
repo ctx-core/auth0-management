@@ -1,5 +1,15 @@
 # @ctx-core/auth0-management
 
+## 9.4.0
+
+### Minor Changes
+
+- - auth0\__v2_user\__PATCH\__fetch\__data_T: aliased by auth0\__v2_user\__fetch_patch\__params_T
+- - auth0\__v2_users_by_email\__GET\__fetch\__params_T: aliased by auth0\__v2_users_by_email\__fetch_get\__params_T
+- - auth0\__v2_client_grants\__GET\__fetch\__params_T: aliased by auth0\__v2_client_grants\__fetch_get\__params_T
+- - auth0\__v2_client\__GET\__fetch\__params_T: aliased by auth0\__v2_client\__fetch_get\__params_T
+- - auth0\__v2_user\__GET\__fetch\__params_T: aliased by auth0\__v2_user\__fetch_get\__params_T
+
 ## 9.3.0
 
 ### Minor Changes
