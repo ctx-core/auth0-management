@@ -4,11 +4,15 @@ import { AUTH0_MANAGEMENT_ID_ } from '../AUTH0_MANAGEMENT_ID__/index.js'
 import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET__/index.js'
 const require = createRequire(import.meta.url)
 const { ManagementClient } = require('auth0')
+/** @typedef {import('@ctx-core/object').Ctx}Ctx */
+/** @typedef {import('auth0').ManagementClient}ManagementClient */
+/** @typedef {import('./auth0_management__new.d.ts').auth0_management__params_T}auth0_management__params_T */
 /**
- * @param {import('./auth0_management_.d.ts').auth0_management__params_T} params
- * @returns {import('auth0').ManagementClient}
+ * @param {Ctx}ctx
+ * @param {auth0_management__params_T}params
+ * @returns {ManagementClient}
  */
-export function auth0_management_(
+export function auth0_management__new(
 	ctx,
 	params = {}
 ) {
@@ -31,4 +35,7 @@ export function auth0_management_(
 		clientSecret,
 		scope
 	})
+}
+export {
+	auth0_management__new as auth0_management_
 }

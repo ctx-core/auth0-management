@@ -1,0 +1,23 @@
+import type { fetch__template_pair_T } from '@ctx-core/fetch'
+import type { Ctx } from '@ctx-core/object'
+import type { User } from 'auth0'
+export declare const [
+	auth0__v2_user__GET__fetch,
+	auth0__v2_user__GET__fetch2,
+]:fetch__template_pair_T<
+	[
+		ctx:Ctx,
+		params:auth0__v2_user__GET__fetch2__params_T
+	],
+	User
+>
+export {
+	auth0__v2_user__GET__fetch2 as auth0__v2_user__fetch_get,
+	auth0__v2_user__GET__fetch2 as get_auth0_v2_user,
+}
+export interface auth0__v2_user__GET__fetch2__params_T {
+	AUTH0_DOMAIN?:string
+	user_id:string
+}
+export declare type get_auth0_v2_user_params_T = auth0__v2_user__GET__fetch2__params_T
+

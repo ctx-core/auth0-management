@@ -5,7 +5,7 @@ import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET__/index.js'
  * @param {import('@ctx-core/object').Ctx}ctx
  * @return {import('@ctx-core/auth0').auth0__oauth_token__fetch__body_T}
  */
-export function auth0_management__client_credentials__body_(ctx) {
+export function auth0_management__client_credentials__body__new(ctx) {
 	return {
 		grant_type: 'client_credentials',
 		client_id: AUTH0_MANAGEMENT_ID_(ctx),
@@ -14,5 +14,6 @@ export function auth0_management__client_credentials__body_(ctx) {
 	}
 }
 export {
-	auth0_management__client_credentials__body_ as auth0_management_client_credentials_body_,
+	auth0_management__client_credentials__body__new as auth0_management__client_credentials__body_,
+	auth0_management__client_credentials__body__new as auth0_management_client_credentials_body_,
 }
