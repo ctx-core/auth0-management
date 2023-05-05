@@ -1581,10 +1581,10 @@
 
 ### Minor Changes
 
-- auth0**v2_user**fetch_patch: returns Promise<[UpdateUserData|auth0__error_T, Response]>
-- - AUTH0*MANAGEMENT_ID\_\_,AUTH0_MANAGEMENT_ID*,AUTH0_MANAGEMENT_ID\_\_set
-- - AUTH0*MANAGEMENT_SECRET\_\_,AUTH0_MANAGEMENT_SECRET*,AUTH0_MANAGEMENT_SECRET\_\_set
-- - auth0**v2_user**fetch_get\_\_params_T: aliased by get_auth0_v2_user_params_T
+- auth0\__v2_user\__fetch_patch: returns Promise<[UpdateUserData|auth0__error_T, Response]>
+- - AUTH0_MANAGEMENT_ID\__,AUTH0_MANAGEMENT_ID_,AUTH0_MANAGEMENT_ID\__set
+- - AUTH0_MANAGEMENT_SECRET\__,AUTH0_MANAGEMENT_SECRET_,AUTH0_MANAGEMENT_SECRET\__set
+- - auth0\__v2_user\__fetch_get\__params_T: aliased by get_auth0_v2_user_params_T
 
     AUTH0_DOMAIN?:string
 
@@ -1670,7 +1670,7 @@
 
 ### Patch Changes
 
-- import*meta_env*() instead of process.env
+- import_meta_env_() instead of process.env
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
@@ -2126,7 +2126,7 @@
 
 ### Patch Changes
 
-- variable names: auth0_token=>auth0\_\_token
+- variable names: auth0_token=>auth0\__token
 - Updated dependencies
   - @ctx-core/auth0@35.6.1
 
@@ -2382,7 +2382,7 @@
 
 ### Patch Changes
 
-- fix: auth0**oauth_token**fetch_get=>auth0**oauth_token**fetch_post,auth0**passwordless_start**fetch_get=>auth0**passwordless_start**fetch_post
+- fix: auth0\__oauth_token\__fetch_get=>auth0\__oauth_token\__fetch_post,auth0\__passwordless_start\__fetch_get=>auth0\__passwordless_start\__fetch_post
 
 ## 9.1.3
 
@@ -2490,7 +2490,7 @@
 
 ### Patch Changes
 
-- auth0*management*: import type { AppMetadata, ManagementClient, UserMetadata } from 'auth0'
+- auth0_management_: import type { AppMetadata, ManagementClient, UserMetadata } from 'auth0'
 - Updated dependencies
   - @ctx-core/auth0@35.0.88
 
@@ -3288,7 +3288,7 @@
 
 ### Patch Changes
 
-- fix: @ctx-core/\* dependencies
+- fix: @ctx-core/\_ dependencies
 - Updated dependencies
   - @ctx-core/auth0@34.2.5
   - @ctx-core/fetch-undici@1.2.16
@@ -3413,7 +3413,7 @@
 
 ### Patch Changes
 
-- fix: get*auth0_v2_client_grants,get_auth0_v2_user,get_auth0_v2_users_by_email,patch_auth0_v2_client,patch_auth0_v2_user: headers*
+- fix: get_auth0_v2_client_grants,get_auth0_v2_user,get_auth0_v2_users_by_email,patch_auth0_v2_client,patch_auth0_v2_user: headers_
 - Updated dependencies
   - @ctx-core/auth0@33.2.2
 
@@ -3827,7 +3827,7 @@
 
 ### Patch Changes
 
-- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- fix: error TS6059: \_ is not under 'rootDir': package.json: types: ./dist/index.d.ts
 - Updated dependencies
   - @ctx-core/auth0@27.0.9
   - @ctx-core/fetch@11.0.101
@@ -3871,7 +3871,7 @@
 
 ### Patch Changes
 
-- \*.d.ts export
+- \_.d.ts export
 - Updated dependencies
   - @ctx-core/auth0@27.0.5
   - @ctx-core/fetch@11.0.97
@@ -3925,7 +3925,7 @@
 
 ### Major Changes
 
-- \*\_b: ctx is a map: @ctx-core/object: 22.0.0
+- \__b: ctx is a map: @ctx-core/object: 22.0.0
 
 ### Patch Changes
 
@@ -4716,7 +4716,7 @@
 
 ### Patch Changes
 
-- fix: \*\_ctx_I.generated
+- fix: \__ctx_I.generated
 - Updated dependencies [undefined]
   - @ctx-core/auth0@25.0.29
 
@@ -5280,7 +5280,7 @@
 
 ### Patch Changes
 
-- fix: deploying \*.js files
+- fix: deploying \_.js files
 - Updated dependencies [undefined]
   - @ctx-core/auth0@24.0.15
   - @ctx-core/fetch@10.0.11
@@ -5698,7 +5698,7 @@
 
 ### Patch Changes
 
-- .gitignore: - \*.js
+- .gitignore: - \_.js
 - Updated dependencies [undefined]
   - @ctx-core/auth0@22.3.1
   - @ctx-core/fetch@8.2.1
