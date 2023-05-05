@@ -1,31 +1,38 @@
 # @ctx-core/auth0-management
 
+## 9.4.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@3.4.3
+
 ## 9.4.0
 
 ### Minor Changes
 
-- - auth0\__v2_user\__PATCH\__fetch\__data_T: aliased by auth0\__v2_user\__fetch_patch\__params_T
-- - auth0\__v2_users_by_email\__GET\__fetch\__params_T: aliased by auth0\__v2_users_by_email\__fetch_get\__params_T
-- - auth0\__v2_client_grants\__GET\__fetch\__params_T: aliased by auth0\__v2_client_grants\__fetch_get\__params_T
-- - auth0\__v2_client\__GET\__fetch\__params_T: aliased by auth0\__v2_client\__fetch_get\__params_T
-- - auth0\__v2_user\__GET\__fetch\__params_T: aliased by auth0\__v2_user\__fetch_get\__params_T
+- - auth0\_\_v2_user\_\_PATCH\_\_fetch\_\_data_T: aliased by auth0\_\_v2_user\_\_fetch_patch\_\_params_T
+- - auth0\_\_v2_users_by_email\_\_GET\_\_fetch\_\_params_T: aliased by auth0\_\_v2_users_by_email\_\_fetch_get\_\_params_T
+- - auth0\_\_v2_client_grants\_\_GET\_\_fetch\_\_params_T: aliased by auth0\_\_v2_client_grants\_\_fetch_get\_\_params_T
+- - auth0\_\_v2_client\_\_GET\_\_fetch\_\_params_T: aliased by auth0\_\_v2_client\_\_fetch_get\_\_params_T
+- - auth0\_\_v2_user\_\_GET\_\_fetch\_\_params_T: aliased by auth0\_\_v2_user\_\_fetch_get\_\_params_T
 
 ## 9.3.0
 
 ### Minor Changes
 
-- - auth0\__v2_user\__PATCH\__fetch
-- - auth0\__v2_user\__GET\__fetch
-- - auth0\__v2_client\__GET\__fetch
-- - auth0\__v2_user\__PATCH\__fetch2: aliased by auth0\__v2_user\__fetch_patch
+- - auth0\_\_v2_user\_\_PATCH\_\_fetch
+- - auth0\_\_v2_user\_\_GET\_\_fetch
+- - auth0\_\_v2_client\_\_GET\_\_fetch
+- - auth0\_\_v2_user\_\_PATCH\_\_fetch2: aliased by auth0\_\_v2_user\_\_fetch_patch
 - - auth0_management\__new: aliased by auth0_management_
-- - auth0\__v2_users_by_email\__GET\__fetch
-- - auth0\__v2_user\__GET\__fetch2: aliased by auth0\__v2_user\__fetch_get
-- - auth0\__v2_client\__GET\__fetch2: aliased by auth0\__v2_client\__fetch_get
-- - auth0\__v2_client_grants\__GET\__fetch
-- - auth0\__v2_client_grants\__GET\__fetch2: aliased by auth0\__v2_client_grants\__fetch_get
-- - auth0_management\__client_credentials\__body\__new: aliased by auth0_management\__client_credentials\__body_
-- - auth0\__v2_users_by_email\__GET\__fetch2: aliased by auth0\__v2_users_by_email\__fetch_get
+- - auth0\_\_v2_users_by_email\_\_GET\_\_fetch
+- - auth0\_\_v2_user\_\_GET\_\_fetch2: aliased by auth0\_\_v2_user\_\_fetch_get
+- - auth0\_\_v2_client\_\_GET\_\_fetch2: aliased by auth0\_\_v2_client\_\_fetch_get
+- - auth0\_\_v2_client_grants\_\_GET\_\_fetch
+- - auth0\_\_v2_client_grants\_\_GET\_\_fetch2: aliased by auth0\_\_v2_client_grants\_\_fetch_get
+- - auth0_management\_\_client_credentials\_\_body\_\_new: aliased by auth0_management\_\_client_credentials\__body_
+- - auth0\_\_v2_users_by_email\_\_GET\_\_fetch2: aliased by auth0\_\_v2_users_by_email\_\_fetch_get
 
 ### Patch Changes
 
@@ -1619,10 +1626,10 @@
 
 ### Minor Changes
 
-- auth0\__v2_user\__fetch_patch: returns Promise<[UpdateUserData|auth0__error_T, Response]>
-- - AUTH0_MANAGEMENT_ID\__,AUTH0_MANAGEMENT_ID_,AUTH0_MANAGEMENT_ID\__set
-- - AUTH0_MANAGEMENT_SECRET\__,AUTH0_MANAGEMENT_SECRET_,AUTH0_MANAGEMENT_SECRET\__set
-- - auth0\__v2_user\__fetch_get\__params_T: aliased by get_auth0_v2_user_params_T
+- auth0\_\_v2_user\_\_fetch_patch: returns Promise<[UpdateUserData|auth0__error_T, Response]>
+- - AUTH0_MANAGEMENT_ID\__,AUTH0_MANAGEMENT_ID_,AUTH0_MANAGEMENT_ID\_\_set
+- - AUTH0_MANAGEMENT_SECRET\__,AUTH0_MANAGEMENT_SECRET_,AUTH0_MANAGEMENT_SECRET\_\_set
+- - auth0\_\_v2_user\_\_fetch_get\_\_params_T: aliased by get_auth0_v2_user_params_T
 
     AUTH0_DOMAIN?:string
 
@@ -1708,7 +1715,7 @@
 
 ### Patch Changes
 
-- import_meta_env_() instead of process.env
+- import*meta_env*() instead of process.env
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
@@ -2164,7 +2171,7 @@
 
 ### Patch Changes
 
-- variable names: auth0_token=>auth0\__token
+- variable names: auth0_token=>auth0\_\_token
 - Updated dependencies
   - @ctx-core/auth0@35.6.1
 
@@ -2420,7 +2427,7 @@
 
 ### Patch Changes
 
-- fix: auth0\__oauth_token\__fetch_get=>auth0\__oauth_token\__fetch_post,auth0\__passwordless_start\__fetch_get=>auth0\__passwordless_start\__fetch_post
+- fix: auth0\_\_oauth_token\_\_fetch_get=>auth0\_\_oauth_token\_\_fetch_post,auth0\_\_passwordless_start\_\_fetch_get=>auth0\_\_passwordless_start\_\_fetch_post
 
 ## 9.1.3
 
@@ -2528,7 +2535,7 @@
 
 ### Patch Changes
 
-- auth0_management_: import type { AppMetadata, ManagementClient, UserMetadata } from 'auth0'
+- auth0*management*: import type { AppMetadata, ManagementClient, UserMetadata } from 'auth0'
 - Updated dependencies
   - @ctx-core/auth0@35.0.88
 
@@ -3451,7 +3458,7 @@
 
 ### Patch Changes
 
-- fix: get_auth0_v2_client_grants,get_auth0_v2_user,get_auth0_v2_users_by_email,patch_auth0_v2_client,patch_auth0_v2_user: headers_
+- fix: get*auth0_v2_client_grants,get_auth0_v2_user,get_auth0_v2_users_by_email,patch_auth0_v2_client,patch_auth0_v2_user: headers*
 - Updated dependencies
   - @ctx-core/auth0@33.2.2
 
@@ -3963,7 +3970,7 @@
 
 ### Major Changes
 
-- \__b: ctx is a map: @ctx-core/object: 22.0.0
+- \_\_b: ctx is a map: @ctx-core/object: 22.0.0
 
 ### Patch Changes
 
@@ -4754,7 +4761,7 @@
 
 ### Patch Changes
 
-- fix: \__ctx_I.generated
+- fix: \_\_ctx_I.generated
 - Updated dependencies [undefined]
   - @ctx-core/auth0@25.0.29
 
