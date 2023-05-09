@@ -1,5 +1,12 @@
 # @ctx-core/auth0-management
 
+## 9.4.6
+
+### Patch Changes
+
+- @ctx-core/auth0: ^38.2.11 -> ^38.2.12
+- @ctx-core/env: ^17.2.90 -> ^17.2.91
+
 ## 9.4.5
 
 ### Patch Changes
