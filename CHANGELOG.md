@@ -1,5 +1,12 @@
 # @ctx-core/auth0-management
 
+## 9.4.16
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@4.0.3
+
 ## 9.4.15
 
 ### Patch Changes
