@@ -1,5 +1,21 @@
 # @ctx-core/auth0-management
 
+## 9.4.15
+
+### Patch Changes
+
+- fix: types:
+
+      AUTH0_MANAGEMENT_ID__
+      AUTH0_MANAGEMENT_ID_
+      AUTH0_MANAGEMENT_ID__set
+      AUTH0_MANAGEMENT_SECRET__
+      AUTH0_MANAGEMENT_SECRET_
+      AUTH0_MANAGEMENT_SECRET__set
+
+- Updated dependencies
+  - @ctx-core/auth0@38.2.20
+
 ## 9.4.14
 
 ### Patch Changes
