@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "9.4.19",
+	"version": "9.4.20",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -42,7 +42,7 @@
 		"@ctx-core/error": "^12.3.29",
 		"@ctx-core/fetch": "^12.10.5",
 		"@ctx-core/fetch-undici": "^2.6.61",
-		"@ctx-core/nanostores": "4.0.4",
+		"@ctx-core/nanostores": "4.0.5",
 		"@ctx-core/object": "^27.4.26",
 		"@ctx-core/uri": "^12.4.41",
 		"auth0": "^3.4.0"
@@ -50,7 +50,7 @@
 	"devDependencies": {
 		"@types/auth0": "^3.3.2",
 		"@types/auth0-js": "^9.14.7",
-		"c8": "^7.13.0",
+		"c8": "^7.14.0",
 		"check-dts": "^0.7.2",
 		"tsx": "^3.12.7",
 		"typescript": "next",
