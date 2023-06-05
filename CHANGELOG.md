@@ -1,5 +1,18 @@
 # @ctx-core/auth0-management
 
+## 9.4.46
+
+### Patch Changes
+
+- @ctx-core/object: ^28.0.0 -> ^28.0.1
+- Updated dependencies
+  - @ctx-core/auth0@38.2.45
+  - @ctx-core/env@17.2.107
+  - @ctx-core/error@12.3.36
+  - @ctx-core/fetch-undici@2.6.80
+  - @ctx-core/nanostores@4.2.6
+  - @ctx-core/uri@12.4.48
+
 ## 9.4.45
 
 ### Patch Changes
