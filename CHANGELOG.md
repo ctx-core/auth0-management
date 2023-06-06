@@ -1,5 +1,17 @@
 # @ctx-core/auth0-management
 
+## 9.5.0
+
+### Minor Changes
+
+- - AUTH0*MANAGEMENT_SECRET$*: aliased by AUTH0_MANAGEMENT_SECRET\_\_
+- - AUTH0*MANAGEMENT_ID$*: aliased by AUTH0_MANAGEMENT_ID\_\_
+- - auth0*management**token**new: aliased by auth0_management\_\_token*
+
+### Patch Changes
+
+- auth0_management**token**new: error: fix: error message
+
 ## 9.4.49
 
 ### Patch Changes
@@ -341,10 +353,10 @@
 
 - fix: types:
 
-      AUTH0_MANAGEMENT_ID__
+      AUTH0_MANAGEMENT_ID$_
       AUTH0_MANAGEMENT_ID_
       AUTH0_MANAGEMENT_ID__set
-      AUTH0_MANAGEMENT_SECRET__
+      AUTH0_MANAGEMENT_SECRET$_
       AUTH0_MANAGEMENT_SECRET_
       AUTH0_MANAGEMENT_SECRET__set
 

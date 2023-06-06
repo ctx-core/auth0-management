@@ -1,6 +1,6 @@
 import { import_meta_env_ } from '@ctx-core/env'
-import { AUTH0_MANAGEMENT_ID__set } from '../AUTH0_MANAGEMENT_ID__/index.js'
-import { AUTH0_MANAGEMENT_SECRET__set } from '../AUTH0_MANAGEMENT_SECRET__/index.js'
+import { AUTH0_MANAGEMENT_ID__set } from '../AUTH0_MANAGEMENT_ID$_/index.js'
+import { AUTH0_MANAGEMENT_SECRET__set } from '../AUTH0_MANAGEMENT_SECRET$_/index.js'
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('./index.d.ts').auth0_management__init__params_T}auth0_management__init__params_T */
 /**

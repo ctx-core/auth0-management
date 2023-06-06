@@ -1,6 +1,6 @@
 import { AUTH0_DOMAIN_, header__access_token__verify } from '@ctx-core/auth0'
 import { fetch, fetch__template_pair_ } from '@ctx-core/fetch-undici'
-import { auth0_management__token_ } from '../auth0_management__token_/index.js'
+import { auth0_management__token__new } from '../auth0_management__token__new/index.js'
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('auth0').User}User */
 /** @typedef {import('./auth0__v2_user__GET__fetch2.d.ts').auth0__v2_user__GET__fetch__params_T}auth0__v2_user__GET__fetch__params_T */
@@ -16,7 +16,7 @@ export const [
 	async(ctx, params)=>{
 		const AUTH0_DOMAIN = params.AUTH0_DOMAIN || AUTH0_DOMAIN_(ctx)
 		const { user_id } = params
-		const auth0__token = await auth0_management__token_(ctx)
+		const auth0__token = await auth0_management__token__new(ctx)
 		const authorization = header__access_token__verify(auth0__token)
 		const url = `https://${AUTH0_DOMAIN}/api/v2/users/${user_id}`
 		return fetch(url, {

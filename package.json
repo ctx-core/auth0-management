@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "9.4.49",
+	"version": "9.5.0",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -50,8 +50,10 @@
 	"devDependencies": {
 		"@types/auth0": "^3.3.2",
 		"@types/auth0-js": "^9.14.7",
+		"@types/sinon": "^10.0.15",
 		"c8": "^7.14.0",
 		"check-dts": "^0.7.2",
+		"sinon": "^15.1.0",
 		"tsx": "^3.12.7",
 		"typescript": "next",
 		"uvu": "^0.5.6"

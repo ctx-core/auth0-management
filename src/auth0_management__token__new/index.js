@@ -10,7 +10,7 @@ import {
  * @param {Ctx}ctx
  * @return {Promise<auth0__token_T>}
  */
-export async function auth0_management__token_(ctx) {
+export async function auth0_management__token__new(ctx) {
 	const [
 		payload,
 		response
@@ -20,13 +20,15 @@ export async function auth0_management__token_(ctx) {
 	if (!response.ok) {
 		/** @type {Auth0Error} */
 		const auth0_error = payload
-		http_error__throw({
-			http__status: response.status,
-			error_message: `${auth0_error.error}: ${auth0_error.error_description}`,
-		})
+		http_error__throw(
+			`${auth0_error.error}: ${auth0_error.error_description}`,
+			{
+				http__status: response.status,
+			})
 	}
 	return payload
 }
 export {
-	auth0_management__token_ as auth0_management_token_,
+	auth0_management__token__new as auth0_management__token_,
+	auth0_management__token__new as auth0_management_token_,
 }

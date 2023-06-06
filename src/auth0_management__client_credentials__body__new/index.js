@@ -1,6 +1,6 @@
 import { auth0__v2__url_ } from '@ctx-core/auth0'
-import { AUTH0_MANAGEMENT_ID_ } from '../AUTH0_MANAGEMENT_ID__/index.js'
-import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET__/index.js'
+import { AUTH0_MANAGEMENT_ID_ } from '../AUTH0_MANAGEMENT_ID$_/index.js'
+import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET$_/index.js'
 /**
  * @param {import('@ctx-core/object').Ctx}ctx
  * @return {import('@ctx-core/auth0').auth0__oauth_token__fetch__body_T}
