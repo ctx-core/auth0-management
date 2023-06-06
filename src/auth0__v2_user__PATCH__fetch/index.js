@@ -1,6 +1,8 @@
 import { AUTH0_DOMAIN_, header__access_token__verify } from '@ctx-core/auth0'
 import { fetch, fetch__template_pair_ } from '@ctx-core/fetch-undici'
-import { auth0_management__token__new } from '../auth0_management__token__new/index.js'
+import {
+	auth0_management__token__new
+} from '../auth0_management__token__new/index.js'
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('auth0').UpdateUserData}UpdateUserData */
 /** @typedef {import('./auth0__v2_user__PATCH__fetch2.d.ts').auth0__v2_user__PATCH__fetch__data_T}auth0__v2_user__PATCH__fetch__data_T */
@@ -20,7 +22,7 @@ export const [
 	 * @see {@link https://auth0.com/docs/api-auth/grant/authorization-code}
 	 * @see {@link https://auth0.com/docs/protocols/oauth2}
 	 */
-	async(
+	async (
 		ctx,
 		user_id,
 		data
