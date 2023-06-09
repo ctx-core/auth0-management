@@ -1,5 +1,14 @@
 # @ctx-core/auth0-management
 
+## 9.6.4
+
+### Patch Changes
+
+- auth0**v2_users_by_email**GET**fetch:
+  auth0**v2_users_by_email**GET**fetch2:
+
+      fix: implementation
+
 ## 9.6.3
 
 ### Patch Changes

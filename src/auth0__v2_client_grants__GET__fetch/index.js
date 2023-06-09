@@ -1,5 +1,5 @@
 import { AUTH0_DOMAIN_, header__access_token__verify } from '@ctx-core/auth0'
-import { fetch, fetch__template_pair_ } from '@ctx-core/fetch-undici'
+import { fetch__template_pair_ } from '@ctx-core/fetch'
 import { query_str_ } from '@ctx-core/uri'
 import { auth0_management__token__new } from '../auth0_management__token__new/index.js'
 /** @typedef {import('@ctx-core/fetch').response_pair_T}response_pair_T */
