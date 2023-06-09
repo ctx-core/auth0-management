@@ -1,6 +1,7 @@
 import type { fetch__template_pair_T } from '@ctx-core/fetch'
 import type { Ctx } from '@ctx-core/object'
 import type { CreateClientGrant } from 'auth0'
+import type { Auth0Error } from 'auth0-js'
 export declare const [
 	auth0__v2_client_grants__GET__fetch,
 	auth0__v2_client_grants__GET__fetch2,
@@ -9,7 +10,7 @@ export declare const [
 		ctx:Ctx,
 		params:auth0__v2_client_grants__GET__fetch__params_T
 	],
-	CreateClientGrant
+	CreateClientGrant|Auth0Error
 >
 export {
 	auth0__v2_client_grants__GET__fetch2 as auth0__v2_client_grants__fetch_get,

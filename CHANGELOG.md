@@ -1,5 +1,25 @@
 # @ctx-core/auth0-management
 
+## 9.6.0
+
+### Minor Changes
+
+- return type: + |Auth0Error:
+
+      auth0__v2_client__GET__fetch
+      auth0__v2_client__GET__fetch2
+      auth0__v2_client_grants__GET__fetch
+      auth0__v2_client_grants__GET__fetch2
+      auth0__v2_user__GET__fetch
+      auth0__v2_user__GET__fetch2
+      auth0__v2_users_by_email__GET__fetch
+      auth0__v2_users_by_email__GET__fetch2
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/auth0@38.6.0
+
 ## 9.5.4
 
 ### Patch Changes

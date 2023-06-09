@@ -11,7 +11,7 @@ export const [
 	/**
 	 * @param {Ctx}ctx
 	 * @param {auth0__v2_user__GET__fetch__params_T}params
-	 * @return {Promise<[User, Response]>}
+	 * @return {Promise<Response>}
 	 */
 	async(ctx, params)=>{
 		const AUTH0_DOMAIN = params.AUTH0_DOMAIN || AUTH0_DOMAIN_(ctx)
