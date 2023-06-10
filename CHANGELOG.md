@@ -1,5 +1,15 @@
 # @ctx-core/auth0-management
 
+## 9.7.0
+
+### Minor Changes
+
+- new functions:
+
+      + auth0__user$_
+      + auth0__user_
+      + auth0__user__set
+
 ## 9.6.7
 
 ### Patch Changes

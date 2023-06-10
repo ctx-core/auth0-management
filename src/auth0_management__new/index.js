@@ -1,7 +1,7 @@
 import { AUTH0_DOMAIN_ } from '@ctx-core/auth0'
 import { createRequire } from 'module'
-import { AUTH0_MANAGEMENT_ID_ } from '../AUTH0_MANAGEMENT_ID$_/index.js'
-import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET$_/index.js'
+import { AUTH0_MANAGEMENT_ID_ } from '../AUTH0_MANAGEMENT_ID/index.js'
+import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET/index.js'
 const require = createRequire(import.meta.url)
 const { ManagementClient } = require('auth0')
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
