@@ -16,7 +16,8 @@ export async function auth0_management__token__new(ctx) {
 		response
 	] =
 		await auth0__oauth_token__POST__fetch2(
-			ctx, auth0_management__client_credentials__body__new(ctx))
+			ctx,
+			auth0_management__client_credentials__body__new(ctx))
 	if (!response.ok) {
 		/** @type {Auth0Error} */
 		const auth0_error = payload
