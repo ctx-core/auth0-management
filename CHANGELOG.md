@@ -1,5 +1,17 @@
 # @ctx-core/auth0-management
 
+## 9.7.20
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.116 -> ^17.2.117
+- @ctx-core/uri: ^12.4.49 -> ^12.4.50
+- @ctx-core/error: ^12.3.37 -> ^12.3.38
+- @ctx-core/auth0: ^39.0.10 -> ^39.0.11
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/fetch@12.11.4
+
 ## 9.7.19
 
 ### Patch Changes
