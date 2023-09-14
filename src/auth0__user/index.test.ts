@@ -1,5 +1,5 @@
 import { ctx_ } from '@ctx-core/object'
-import { User } from 'auth0'
+import { UserProfile } from 'auth0'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { auth0__user$_, auth0__user_, auth0__user__set } from '../index.js'
@@ -45,5 +45,5 @@ function auth0__user__new() {
 		"blocked": false,
 		"given_name": "",
 		"family_name": ""
-	} as User
+	} as UserProfile
 }

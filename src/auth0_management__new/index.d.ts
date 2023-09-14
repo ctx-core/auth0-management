@@ -1,9 +1,9 @@
 import type { Ctx } from '@ctx-core/object'
-import type { AppMetadata, ManagementClient, UserMetadata } from 'auth0'
+import type { ManagementClient } from 'auth0'
 export declare function auth0_management__new(
 	ctx:Ctx,
 	params?:auth0_management__params_T
-):ManagementClient<AppMetadata, UserMetadata>
+):ManagementClient
 export {
 	auth0_management__new as auth0_management_
 }

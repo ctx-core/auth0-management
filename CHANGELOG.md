@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 9.7.85
+
+### Patch Changes
+
+- fix: types
+
 ## 9.7.84
 
 ### Patch Changes
