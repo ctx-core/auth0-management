@@ -49,7 +49,7 @@
 	"devDependencies": {
 		"@types/auth0": "^3.3.6",
 		"@types/auth0-js": "^9.21.1",
-		"@types/sinon": "^10.0.16",
+		"@types/sinon": "^10.0.17",
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
 		"sinon": "^16.0.0",
