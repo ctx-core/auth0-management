@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "9.7.94",
+	"version": "9.7.95",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -41,7 +41,7 @@
 		"@ctx-core/env": "^17.3.5",
 		"@ctx-core/error": "^12.3.42",
 		"@ctx-core/fetch": "^13.0.1",
-		"@ctx-core/nanostores": "6.0.8",
+		"@ctx-core/nanostores": "6.0.9",
 		"@ctx-core/object": "^28.0.7",
 		"@ctx-core/uri": "^12.4.55",
 		"auth0": "^4.0.1"
