@@ -1,5 +1,5 @@
 import {AUTH0_DOMAIN__set} from '@ctx-core/auth0'
-import {ctx_} from '@ctx-core/object'
+import {ctx__new} from '@ctx-core/object'
 import {type UserProfile} from 'auth0'
 import {restore, stub} from 'sinon'
 import {test} from 'uvu'
@@ -9,7 +9,7 @@ import {auth0__v2_user__GET__fetch, auth0__v2_user__GET__fetch2} from './index.j
 
 test.after.each(() => restore())
 test('auth0__v2_user__GET__fetch', async () => {
-    const ctx = ctx_()
+    const ctx = ctx__new()
     AUTH0_DOMAIN__set(ctx, 'myapp.auth0.com')
     auth0_management__init(ctx, {
         AUTH0_MANAGEMENT_ID: 'AUTH0_MANAGEMENT_ID',
@@ -24,7 +24,7 @@ test('auth0__v2_user__GET__fetch', async () => {
     equal(await response.json(), auth0__user)
 })
 test('auth0__v2_user__GET__fetch2', async () => {
-    const ctx = ctx_()
+    const ctx = ctx__new()
     AUTH0_DOMAIN__set(ctx, 'myapp.auth0.com')
     auth0_management__init(ctx, {
         AUTH0_MANAGEMENT_ID: 'AUTH0_MANAGEMENT_ID',

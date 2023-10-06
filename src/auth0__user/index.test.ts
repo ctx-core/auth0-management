@@ -1,10 +1,10 @@
-import { ctx_ } from '@ctx-core/object'
+import { ctx__new } from '@ctx-core/object'
 import { UserProfile } from 'auth0'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { auth0__user$_, auth0__user_, auth0__user__set } from '../index.js'
 test('auth0__user', ()=>{
-	const ctx = ctx_()
+	const ctx = ctx__new()
 	const auth0__user = auth0__user__new()
 	equal(auth0__user$_(ctx).$, undefined)
 	equal(auth0__user_(ctx), undefined)

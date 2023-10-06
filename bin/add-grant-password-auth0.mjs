@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import { ctx_ } from '@ctx-core/object'
+import { ctx__new } from '@ctx-core/object'
 import { auth0__v2_client__GET__fetch2 } from '../src/index.js'
 await main()
 async function main() {
-	const ctx = ctx_()
+	const ctx = ctx__new()
 	const [client] = await auth0__v2_client__GET__fetch2(ctx, {
 		json: {
 			grant_types: [

@@ -1,12 +1,12 @@
 import { AUTH0_DOMAIN__set } from '@ctx-core/auth0'
-import { ctx_ } from '@ctx-core/object'
+import { ctx__new } from '@ctx-core/object'
 import { restore, stub } from 'sinon'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { auth0_management__init, auth0_management__token__new } from '../index.js'
 test.after.each(()=>restore())
 test('auth0_management__token__new|error', async ()=>{
-	const ctx = ctx_()
+	const ctx = ctx__new()
 	AUTH0_DOMAIN__set(ctx, 'myapp.auth0.com')
 	auth0_management__init(ctx, {
 		AUTH0_MANAGEMENT_ID: 'AUTH0_MANAGEMENT_ID',
