@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "9.7.139",
+	"version": "9.7.140",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -37,10 +37,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^40.0.68",
+		"@ctx-core/auth0": "^40.0.69",
 		"@ctx-core/env": "^17.3.14",
 		"@ctx-core/error": "^12.3.45",
-		"@ctx-core/fetch": "^13.0.20",
+		"@ctx-core/fetch": "^13.0.21",
 		"@ctx-core/nanostores": "7.0.3",
 		"@ctx-core/object": "^28.2.1",
 		"@ctx-core/uri": "^12.4.58",
