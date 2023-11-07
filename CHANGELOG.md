@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 9.7.156
+
+### Patch Changes
+
+- @types/auth0: ^3.3.8 -> ^3.3.9
+- Updated dependencies
+  - @ctx-core/auth0@40.0.85
+
 ## 9.7.155
 
 ### Patch Changes
