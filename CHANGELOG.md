@@ -1,5 +1,20 @@
 # @ctx-core/auth0-management
 
+## 9.7.159
+
+### Patch Changes
+
+- @types/auth0-js: ^9.21.3 -> ^9.21.4
+- @types/sinon: ^17.0.0 -> ^17.0.1
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@40.0.88
+  - @ctx-core/fetch@13.0.30
+  - @ctx-core/nanostores@7.0.6
+
 ## 9.7.158
 
 ### Patch Changes
