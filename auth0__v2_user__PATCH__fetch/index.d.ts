@@ -1,6 +1,6 @@
 import type { fetch__template_pair_T } from '@ctx-core/fetch'
 import type { Ctx } from '@ctx-core/object'
-import type { UserUpdate, UserProfile } from 'auth0'
+import type { UserProfile, UserUpdate } from 'auth0'
 import type { Auth0Error } from 'auth0-js'
 export declare const [
 	auth0__v2_user__PATCH__fetch,

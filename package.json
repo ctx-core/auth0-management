@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "9.7.167",
+	"version": "9.8.0",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,25 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"files": [
+		"*.d.ts",
+		"./bin",
+		"./auth0__user",
+		"./auth0__v2_client__GET__fetch",
+		"./auth0__v2_client_grants__GET__fetch",
+		"./auth0__v2_user__GET__fetch",
+		"./auth0__v2_user__PATCH__fetch",
+		"./auth0__v2_users_by_email__GET__fetch",
+		"./auth0_management__client_credentials__body__new",
+		"./auth0_management__init",
+		"./auth0_management__new",
+		"./auth0_management__token__new",
+		"./AUTH0_MANAGEMENT_ID",
+		"./AUTH0_MANAGEMENT_SECRET"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"bin": {
@@ -37,13 +53,13 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/auth0": "^40.0.96",
-		"@ctx-core/env": "^17.3.19",
-		"@ctx-core/error": "^12.3.49",
-		"@ctx-core/fetch": "^13.0.34",
-		"@ctx-core/nanostores": "7.0.8",
-		"@ctx-core/object": "^30.0.0",
-		"@ctx-core/uri": "^12.4.62",
+		"@ctx-core/auth0": "^40.1.0",
+		"@ctx-core/env": "^17.4.0",
+		"@ctx-core/error": "^12.4.0",
+		"@ctx-core/fetch": "^13.1.0",
+		"@ctx-core/nanostores": "7.1.0",
+		"@ctx-core/object": "^30.1.0",
+		"@ctx-core/uri": "^12.5.0",
 		"auth0": "^4.1.0"
 	},
 	"devDependencies": {
@@ -61,6 +77,5 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./src/index.js",
 	"sideEffects": false
 }

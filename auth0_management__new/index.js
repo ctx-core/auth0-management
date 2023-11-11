@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url)
 const { ManagementClient } = require('auth0')
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('auth0').ManagementClient}ManagementClient */
-/** @typedef {import('./auth0_management__new.d.ts').auth0_management__params_T}auth0_management__params_T */
+/** @typedef {import('./index.d.ts').auth0_management__params_T}auth0_management__params_T */
 /**
  * @param {Ctx}ctx
  * @param {auth0_management__params_T}params

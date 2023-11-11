@@ -1,5 +1,33 @@
 # @ctx-core/auth0-management
 
+## 9.8.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@40.1.0
+  - @ctx-core/env@17.4.0
+  - @ctx-core/error@12.4.0
+  - @ctx-core/fetch@13.1.0
+  - @ctx-core/nanostores@7.1.0
+  - @ctx-core/object@30.1.0
+  - @ctx-core/uri@12.5.0
+
 ## 9.7.167
 
 ### Patch Changes

@@ -3,7 +3,7 @@ import { fetch__template_pair__new } from '@ctx-core/fetch'
 import { auth0_management__token__new } from '../auth0_management__token__new/index.js'
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('auth0').User}User */
-/** @typedef {import('./auth0__v2_user__GET__fetch2.d.ts').auth0__v2_user__GET__fetch__params_T}auth0__v2_user__GET__fetch__params_T */
+/** @typedef {import('./index.d.ts').auth0__v2_user__GET__fetch__params_T}auth0__v2_user__GET__fetch__params_T */
 export const [
 	auth0__v2_user__GET__fetch,
 	auth0__v2_user__GET__fetch2,
@@ -13,7 +13,7 @@ export const [
 	 * @param {auth0__v2_user__GET__fetch__params_T}params
 	 * @return {Promise<Response>}
 	 */
-	async(ctx, params)=>{
+	async (ctx, params)=>{
 		const AUTH0_DOMAIN = params.AUTH0_DOMAIN || AUTH0_DOMAIN_(ctx)
 		const { user_id } = params
 		const auth0__token = await auth0_management__token__new(ctx)

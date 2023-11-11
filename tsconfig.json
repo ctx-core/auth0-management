@@ -1,16 +1,13 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
-		"allowJs": true,
-		"allowSyntheticDefaultImports": true,
-		"lib": ["dom", "ESNext"],
-		"module": "esnext",
-		"moduleResolution": "node",
-		"resolveJsonModule": true,
-		"rootDir": "src",
-		"declaration": true,
-		"declarationDir": "src"
+		"module": "ESNext",
+		"moduleResolution": "nodenext",
+		"target": "ESNext",
+		"strict": true
 	},
-  "include": ["src"],
-	"exclude": []
+	"exclude": [
+		"node_modules"
+	],
+	"references": []
 }

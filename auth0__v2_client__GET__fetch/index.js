@@ -4,7 +4,7 @@ import { auth0_management__token__new } from '../auth0_management__token__new/in
 /** @typedef {import('@ctx-core/fetch').response_pair_T}response_pair_T */
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('auth0').Client}Client */
-/** @typedef {import('./auth0__v2_client__GET__fetch2.d.ts').auth0__v2_client__GET__fetch__params_T}auth0__v2_client__GET__fetch__params_T */
+/** @typedef {import('./index.d.ts').auth0__v2_client__GET__fetch__params_T}auth0__v2_client__GET__fetch__params_T */
 export const [
 	auth0__v2_client__GET__fetch,
 	auth0__v2_client__GET__fetch2,
@@ -14,7 +14,7 @@ export const [
 	 * @param {auth0__v2_client__GET__fetch__params_T}params
 	 * @returns {Promise<response_pair_T<Client>>}
 	 */
-	async(
+	async (
 		ctx,
 		params
 	)=>{
