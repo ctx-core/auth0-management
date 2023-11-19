@@ -3,9 +3,9 @@ import { http_error__throw } from '@ctx-core/error'
 import {
 	auth0_management__client_credentials__body__new
 } from '../auth0_management__client_credentials__body__new/index.js'
-/** @typedef {import('@ctx-core/auth0').auth0__token_T}auth0__token_T */
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('auth0-js').Auth0Error}Auth0Error */
+/** @typedef {import('@ctx-core/auth0').auth0__token_T} */
+/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {import('auth0-js').Auth0Error} */
 /**
  * @param {Ctx}ctx
  * @return {Promise<auth0__token_T>}
