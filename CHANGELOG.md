@@ -1,5 +1,20 @@
 # @ctx-core/auth0-management
 
+## 9.8.42
+
+### Patch Changes
+
+- tsx: ^4.1.4 -> ^4.2.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/error@12.4.21
+  - @ctx-core/fetch@13.1.23
+  - @ctx-core/object@31.1.3
+  - @ctx-core/uri@12.5.22
+  - @ctx-core/auth0@40.1.40
+  - @ctx-core/env@17.4.25
+  - @ctx-core/nanostores@9.0.7
+
 ## 9.8.41
 
 ### Patch Changes
