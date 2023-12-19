@@ -1,5 +1,5 @@
-import { ctx__new } from '@ctx-core/object'
 import type { UserProfile } from 'auth0'
+import { ctx__new } from 'ctx-core/be'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { auth0__user$_, auth0__user_, auth0__user__set } from '../index.js'

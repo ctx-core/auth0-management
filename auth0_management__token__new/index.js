@@ -1,10 +1,11 @@
+/// <reference types="ctx-core" />
 import { auth0__oauth_token__POST__fetch2 } from '@ctx-core/auth0'
-import { http_error__throw } from '@ctx-core/error'
+import { http_error__throw } from 'ctx-core/error'
 import {
 	auth0_management__client_credentials__body__new
 } from '../auth0_management__client_credentials__body__new/index.js'
 /** @typedef {import('@ctx-core/auth0').auth0__token_T} */
-/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {Ctx} */
 /** @typedef {import('auth0-js').Auth0Error} */
 /**
  * @param {Ctx}ctx

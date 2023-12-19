@@ -1,12 +1,12 @@
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { AUTH0_DOMAIN_ } from '@ctx-core/auth0'
-import { createRequire } from 'module'
+import { ManagementClient } from 'auth0'
 import { AUTH0_MANAGEMENT_ID_ } from '../AUTH0_MANAGEMENT_ID/index.js'
 import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET/index.js'
-const require = createRequire(import.meta.url)
-const { ManagementClient } = require('auth0')
-/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {Ctx} */
 /** @typedef {import('auth0').ManagementClient} */
-/** @typedef {import('./index.d.ts').auth0_management__params_T} */
+/** @typedef {auth0_management__params_T} */
 /**
  * @param {Ctx}ctx
  * @param {auth0_management__params_T}params

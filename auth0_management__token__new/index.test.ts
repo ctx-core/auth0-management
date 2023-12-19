@@ -1,5 +1,5 @@
 import { AUTH0_DOMAIN__set } from '@ctx-core/auth0'
-import { ctx__new } from '@ctx-core/object'
+import { ctx__new } from 'ctx-core/be'
 import { restore, stub } from 'sinon'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
@@ -15,30 +15,30 @@ test('auth0_management__token__new|error', async ()=>{
 	fetch__oauth_token__stub()
 	let err
 	await auth0_management__token__new(ctx)
-	.catch($err=>err = $err)
+		.catch($err=>err = $err)
 	equal(!!err, true)
 	equal(err!.message, 'security error: invalid credentials')
 	function fetch__oauth_token__stub() {
 		stub(globalThis, 'fetch')
-		.withArgs('https://myapp.auth0.com/oauth/token', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({
-				grant_type: 'client_credentials',
-				client_id: 'AUTH0_MANAGEMENT_ID',
-				client_secret: 'AUTH0_MANAGEMENT_SECRET',
-				audience: 'https://myapp.auth0.com/api/v2/',
+			.withArgs('https://myapp.auth0.com/oauth/token', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					grant_type: 'client_credentials',
+					client_id: 'AUTH0_MANAGEMENT_ID',
+					client_secret: 'AUTH0_MANAGEMENT_SECRET',
+					audience: 'https://myapp.auth0.com/api/v2/',
+				})
 			})
-		})
-		.resolves(new Response(JSON.stringify({
-			error: 'security error',
-			error_description: 'invalid credentials'
-		}), {
-			status: 403,
-			headers: {
-				'Content-Type': 'application/json',
-			}
-		}))
+			.resolves(new Response(JSON.stringify({
+				error: 'security error',
+				error_description: 'invalid credentials'
+			}), {
+				status: 403,
+				headers: {
+					'Content-Type': 'application/json',
+				}
+			}))
 	}
 })
 test.run()

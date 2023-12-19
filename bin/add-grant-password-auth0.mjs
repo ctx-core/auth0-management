@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { ctx__new } from '@ctx-core/object'
+import { ctx__new } from 'ctx-core/be'
 import { auth0__v2_client__GET__fetch2 } from '../index.js'
 await main()
 async function main() {

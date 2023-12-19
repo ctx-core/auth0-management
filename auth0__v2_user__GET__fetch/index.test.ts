@@ -1,6 +1,6 @@
 import { AUTH0_DOMAIN__set } from '@ctx-core/auth0'
-import { ctx__new } from '@ctx-core/object'
 import { type UserProfile } from 'auth0'
+import { ctx__new } from 'ctx-core/be'
 import { restore, stub } from 'sinon'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
@@ -76,30 +76,30 @@ function auth0__user__new() {
 function api_v2_user__stub(auth0__user:UserProfile) {
 	const fetch = stub(globalThis, 'fetch')
 	fetch
-	.withArgs('https://myapp.auth0.com/oauth/token', {
-		method: 'POST',
-		headers: { 'Content-Type': 'application/json' },
-		body: JSON.stringify({
-			grant_type: 'client_credentials',
-			client_id: 'AUTH0_MANAGEMENT_ID',
-			client_secret: 'AUTH0_MANAGEMENT_SECRET',
-			audience: 'https://myapp.auth0.com/api/v2/',
+		.withArgs('https://myapp.auth0.com/oauth/token', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({
+				grant_type: 'client_credentials',
+				client_id: 'AUTH0_MANAGEMENT_ID',
+				client_secret: 'AUTH0_MANAGEMENT_SECRET',
+				audience: 'https://myapp.auth0.com/api/v2/',
+			})
 		})
-	})
-	.resolves(new Response(JSON.stringify({
-		access_token: 'access_token',
-		token_type: 'Bearer',
-	}), {
-		status: 200,
-		headers: {
-			'Content-Type': 'application/json'
-		}
-	}))
+		.resolves(new Response(JSON.stringify({
+			access_token: 'access_token',
+			token_type: 'Bearer',
+		}), {
+			status: 200,
+			headers: {
+				'Content-Type': 'application/json'
+			}
+		}))
 	fetch.withArgs('https://myapp.auth0.com/api/v2/users/123')
-	.resolves(new Response(JSON.stringify(auth0__user), {
-		status: 200,
-		headers: {
-			'Content-Type': 'application/json'
-		}
-	}))
+		.resolves(new Response(JSON.stringify(auth0__user), {
+			status: 200,
+			headers: {
+				'Content-Type': 'application/json'
+			}
+		}))
 }

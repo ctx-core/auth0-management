@@ -1,5 +1,5 @@
-import type { Ctx } from '@ctx-core/object'
 import type { ManagementClient } from 'auth0'
+import type { Ctx } from 'ctx-core/be'
 export declare function auth0_management__new(
 	ctx:Ctx,
 	params?:auth0_management__params_T

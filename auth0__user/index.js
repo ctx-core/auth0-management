@@ -4,5 +4,5 @@ export const [
 	auth0__user$_,
 	auth0__user_,
 	auth0__user__set,
-] = /** @type {be_atom_triple_T<UserProfile>} */be_atom_triple_(()=>
+] = /** @type {be_atom_triple_T<import('auth0').UserProfile>} */be_atom_triple_(()=>
 	undefined)

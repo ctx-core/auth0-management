@@ -1,4 +1,4 @@
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 export declare function auth0_management__init(
 	ctx:Ctx,
 	params:auth0_management__init__params_T
