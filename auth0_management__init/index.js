@@ -1,6 +1,6 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { import_meta_env_ } from '@ctx-core/env'
+import { import_meta_env_ } from 'ctx-core/env'
 import { AUTH0_MANAGEMENT_ID__set } from '../AUTH0_MANAGEMENT_ID/index.js'
 import { AUTH0_MANAGEMENT_SECRET__set } from '../AUTH0_MANAGEMENT_SECRET/index.js'
 /** @typedef {Ctx} */

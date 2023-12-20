@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { import_meta_env_ } from '@ctx-core/env'
 import { ctx__new } from 'ctx-core/be'
+import { import_meta_env_ } from 'ctx-core/env'
 import { auth0__v2_client_grants__GET__fetch2, auth0__v2__url_ } from '../index.js'
 await main()
 async function main() {

@@ -1,4 +1,4 @@
-import { import_meta_env_ } from '@ctx-core/env'
+import { import_meta_env_ } from 'ctx-core/env'
 import { be_atom_triple_ } from '@ctx-core/nanostores'
 /** @typedef {import('@ctx-core/nanostores').be_atom_triple_T} */
 export const [
