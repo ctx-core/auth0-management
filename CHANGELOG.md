@@ -1,5 +1,11 @@
 # @ctx-core/auth0-management
 
+## 10.0.0
+
+### Major Changes
+
+- rmemo instead of @ctx-core/nanostores
+
 ## 9.8.138
 
 ### Patch Changes

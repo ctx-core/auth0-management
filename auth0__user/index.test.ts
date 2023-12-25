@@ -6,10 +6,10 @@ import { auth0__user$_, auth0__user_, auth0__user__set } from '../index.js'
 test('auth0__user', ()=>{
 	const ctx = ctx__new()
 	const auth0__user = auth0__user__new()
-	equal(auth0__user$_(ctx).$, undefined)
+	equal(auth0__user$_(ctx)(), undefined)
 	equal(auth0__user_(ctx), undefined)
 	auth0__user__set(ctx, auth0__user)
-	equal(auth0__user$_(ctx).$, auth0__user)
+	equal(auth0__user$_(ctx)(), auth0__user)
 	equal(auth0__user_(ctx), auth0__user)
 })
 test.run()
