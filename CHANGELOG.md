@@ -1,5 +1,14 @@
 # @ctx-core/auth0-management
 
+## 10.0.14
+
+### Patch Changes
+
+- ctx-core: ^5.16.0 -> ^5.16.1
+- Updated dependencies
+  - @ctx-core/auth0@40.1.142
+  - @ctx-core/fetch@13.1.82
+
 ## 10.0.13
 
 ### Patch Changes
