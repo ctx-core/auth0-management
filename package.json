@@ -59,7 +59,7 @@
 		"@ctx-core/auth0": "^40.1.180",
 		"@ctx-core/fetch": "^13.1.118",
 		"auth0": "^4.2.0",
-		"ctx-core": "^5.27.0"
+		"ctx-core": "^5.27.1"
 	},
 	"devDependencies": {
 		"@types/auth0": "^3.3.10",
