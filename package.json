@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/auth0-management",
-	"version": "10.0.72",
+	"version": "10.0.73",
 	"description": "ctx-core auth0 management api",
 	"keywords": [
 		"ctx-core",
@@ -57,8 +57,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/auth0": "^40.1.200",
-		"@ctx-core/fetch": "^13.1.136",
-		"auth0": "^4.2.0",
+		"@ctx-core/fetch": "^13.1.137",
+		"auth0": "^4.3.0",
 		"ctx-core": "^5.36.0"
 	},
 	"devDependencies": {
