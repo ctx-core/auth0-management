@@ -1,9 +1,9 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
 import { AUTH0_CLIENT_ID_, AUTH0_DOMAIN_, header__access_token__verify } from '@ctx-core/auth0'
-import { fetch__template_pair__new } from '@ctx-core/fetch'
+import { fetch__template_pair__new } from 'ctx-core/fetch'
 import { auth0_management__token__new } from '../auth0_management__token__new/index.js'
-/** @typedef {import('@ctx-core/fetch').response_pair_T} */
+/** @typedef {import('ctx-core/fetch').response_pair_T} */
 /** @typedef {Ctx} */
 /** @typedef {import('auth0').Client} */
 /** @typedef {auth0__v2_client__GET__fetch__params_T} */
