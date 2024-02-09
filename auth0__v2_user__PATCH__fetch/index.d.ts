@@ -1,13 +1,13 @@
 import type { UserProfile, UserUpdate } from 'auth0'
 import type { Auth0Error } from 'auth0-js'
-import type { Ctx } from 'ctx-core/be'
+import type { ctx_T } from 'ctx-core/be'
 import type { fetch__template_pair_T } from 'ctx-core/fetch'
 export declare const [
 	auth0__v2_user__PATCH__fetch,
 	auth0__v2_user__PATCH__fetch2,
 ]:fetch__template_pair_T<
 	[
-		ctx:Ctx,
+		ctx:ctx_T,
 		user_id:string,
 		data:auth0__v2_user__PATCH__fetch__data_T
 	],

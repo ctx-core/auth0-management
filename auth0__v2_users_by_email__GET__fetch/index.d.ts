@@ -1,12 +1,12 @@
 import type { Auth0Error, Auth0UserProfile } from 'auth0-js'
-import type { Ctx } from 'ctx-core/be'
+import type { ctx_T } from 'ctx-core/be'
 import type { fetch__template_pair_T } from 'ctx-core/fetch'
 export declare const [
 	auth0__v2_users_by_email__GET__fetch,
 	auth0__v2_users_by_email__GET__fetch2,
 ]:fetch__template_pair_T<
 	[
-		ctx:Ctx,
+		ctx:ctx_T,
 		params:auth0__v2_users_by_email__GET__fetch__params_T
 	],
 	Auth0UserProfile[]|Auth0Error

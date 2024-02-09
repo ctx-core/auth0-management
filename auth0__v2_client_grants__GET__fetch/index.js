@@ -5,7 +5,7 @@ import { fetch__template_pair__new } from 'ctx-core/fetch'
 import { query_str_ } from 'ctx-core/uri'
 import { auth0_management__token__new } from '../auth0_management__token__new/index.js'
 /** @typedef {import('ctx-core/fetch').response_pair_T} */
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @typedef {import('auth0').CreateClientGrant} */
 /** @typedef {auth0__v2_client_grants__GET__fetch__params_T} */
 export const [
@@ -13,7 +13,7 @@ export const [
 	auth0__v2_client_grants__GET__fetch2,
 ] = fetch__template_pair__new(
 	/**
-	 * @param {Ctx}ctx
+	 * @param {ctx_T}ctx
 	 * @param {auth0__v2_client_grants__GET__fetch__params_T}params
 	 * @returns {Promise<response_pair_T<CreateClientGrant>>}
 	 */

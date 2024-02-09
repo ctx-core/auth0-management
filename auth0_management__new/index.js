@@ -4,11 +4,11 @@ import { AUTH0_DOMAIN_ } from '@ctx-core/auth0'
 import { ManagementClient } from 'auth0'
 import { AUTH0_MANAGEMENT_ID_ } from '../AUTH0_MANAGEMENT_ID/index.js'
 import { AUTH0_MANAGEMENT_SECRET_ } from '../AUTH0_MANAGEMENT_SECRET/index.js'
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @typedef {import('auth0').ManagementClient} */
 /** @typedef {auth0_management__params_T} */
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {auth0_management__params_T}params
  * @returns {ManagementClient}
  */

@@ -5,10 +5,10 @@ import {
 	auth0_management__client_credentials__body__new
 } from '../auth0_management__client_credentials__body__new/index.js'
 /** @typedef {import('@ctx-core/auth0').auth0__token_T} */
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @typedef {import('auth0-js').Auth0Error} */
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @return {Promise<auth0__token_T>}
  */
 export async function auth0_management__token__new(ctx) {

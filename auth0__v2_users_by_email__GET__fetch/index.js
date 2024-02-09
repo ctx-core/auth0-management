@@ -3,7 +3,7 @@
 import { AUTH0_DOMAIN_, header__access_token__verify } from '@ctx-core/auth0'
 import { fetch__template_pair__new } from 'ctx-core/fetch'
 import { auth0_management__token__new } from '../auth0_management__token__new/index.js'
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @type {import('auth0-js').Auth0UserProfile} */
 /** @typedef {auth0__v2_users_by_email__GET__fetch__params_T} */
 export const [
@@ -11,7 +11,7 @@ export const [
 	auth0__v2_users_by_email__GET__fetch2,
 ] = fetch__template_pair__new(
 	/**
-	 * @param {Ctx}ctx
+	 * @param {ctx_T}ctx
 	 * @param {auth0__v2_users_by_email__GET__fetch__params_T}params
 	 * @return {Promise<[Auth0UserProfile[], Response]>}
 	 */

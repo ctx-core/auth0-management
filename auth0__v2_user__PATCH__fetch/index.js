@@ -3,7 +3,7 @@
 import { AUTH0_DOMAIN_, header__access_token__verify } from '@ctx-core/auth0'
 import { fetch__template_pair__new } from 'ctx-core/fetch'
 import { auth0_management__token__new } from '../auth0_management__token__new/index.js'
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @typedef {import('auth0').UpdateUserData} */
 /** @typedef {auth0__v2_user__PATCH__fetch__data_T} */
 /** @typedef {auth0__v2_user__PATCH__error_T} */
@@ -12,7 +12,7 @@ export const [
 	auth0__v2_user__PATCH__fetch2,
 ] = fetch__template_pair__new(
 	/**
-	 * @param {Ctx}ctx
+	 * @param {ctx_T}ctx
 	 * @param {string}user_id
 	 * @param {auth0__v2_user__PATCH__fetch__data_T}data
 	 * @return {Promise<[UpdateUserData|auth0__v2_user__PATCH__error_T, Response]>}
