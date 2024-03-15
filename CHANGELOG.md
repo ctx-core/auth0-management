@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 10.0.108
+
+### Patch Changes
+
+- ctx-core: ^6.5.7 -> ^6.5.8
+- Updated dependencies
+  - @ctx-core/auth0@40.1.233
+
 ## 10.0.107
 
 ### Patch Changes
