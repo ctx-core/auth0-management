@@ -1,5 +1,14 @@
 # @ctx-core/auth0-management
 
+## 10.0.112
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - @ctx-core/auth0@40.1.237
+  - ctx-core@6.6.1
+
 ## 10.0.111
 
 ### Patch Changes
