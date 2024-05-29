@@ -1,5 +1,13 @@
 # @ctx-core/auth0-management
 
+## 10.0.150
+
+### Patch Changes
+
+- @types/auth0-js: ^9.21.5 -> ^9.21.6
+- Updated dependencies
+  - @ctx-core/auth0@40.1.275
+
 ## 10.0.149
 
 ### Patch Changes
