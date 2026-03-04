@@ -1,4 +1,4 @@
-import type { UserProfile } from 'auth0'
+import type { Management } from 'auth0'
 import { ctx__new } from 'ctx-core/be'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
@@ -45,5 +45,5 @@ function auth0__user__new() {
 		'blocked': false,
 		'given_name': '',
 		'family_name': ''
-	} as UserProfile
+	} as Management.GetUserResponseContent
 }

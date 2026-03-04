@@ -1,5 +1,5 @@
 import { AUTH0_DOMAIN__set } from '@ctx-core/auth0'
-import { type UserProfile } from 'auth0'
+import { type Management } from 'auth0'
 import { ctx__new } from 'ctx-core/be'
 import { restore, stub } from 'sinon'
 import { test } from 'uvu'
@@ -71,9 +71,9 @@ function auth0__user__new() {
 		'blocked': false,
 		'given_name': '',
 		'family_name': ''
-	} as UserProfile
+	} as Management.GetUserResponseContent
 }
-function api_v2_user__stub(auth0__user:UserProfile) {
+function api_v2_user__stub(auth0__user:Management.GetUserResponseContent) {
 	const fetch = stub(globalThis, 'fetch')
 	fetch
 		.withArgs('https://myapp.auth0.com/oauth/token', {
