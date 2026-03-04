@@ -1,5 +1,37 @@
 # @ctx-core/auth0-management
 
+## 10.0.177
+
+### Patch Changes
+
+- c8: ^10.1.3 -> ^11.0.0
+- @types/sinon: ^17.0.4 -> ^21.0.0
+- sinon: ^21.0.1 -> ^21.0.2
+- auth0: ^5.3.1 -> ^5.4.0
+- check-dts: ^0.8.2 -> ^0.9.0
+- tsx: ^4.20.6 -> ^4.21.0
+- sinon: ^18.0.1 -> ^21.0.1
+- auth0: ^4.35.0 -> ^5.3.1
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/auth0@40.1.297
+  - ctx-core@7.2.33
+
 ## 10.0.176
 
 ### Patch Changes
